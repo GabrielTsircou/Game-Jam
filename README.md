@@ -1,3 +1,3 @@
 # MUTANT FACTORY
 
-made by a skateboarding cow
+made by a SkaterCow Studios
