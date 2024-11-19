@@ -1,3 +1,3 @@
 # MUTANT FACTORY
 
-made by a SkaterCow Studios
+Made by a SkaterCow Studios
