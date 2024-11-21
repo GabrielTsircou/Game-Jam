@@ -1,3 +1,3 @@
 # MUTANT FACTORY
 
-Made By SkaterCow Studios
+a train wreck made by a skateboarding cow
