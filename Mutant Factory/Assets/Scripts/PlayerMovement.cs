@@ -11,7 +11,11 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask groundLayer;
     private bool isGrounded;
     public Transform feetPosition;
-    public float groundCheckCircle; 
+    public float groundCheckCircle;
+
+    public float jumpTime = 0.35f;
+    public float jumpTimeCounter;
+    private bool isJumping; 
 
     // Update is called once per frame
     void Update()
@@ -28,9 +32,32 @@ public class PlayerMovement : MonoBehaviour
 
         isGrounded = Physics2D.OverlapCircle(feetPosition.position, groundCheckCircle, groundLayer);
 
-        if (isGrounded == true && Input.GetButton("Jump"))
+        if (isGrounded == true && Input.GetButtonDown("Jump"))
         {
+            isJumping = true; 
+            jumpTimeCounter = jumpTime; 
             playerRb.velocity = Vector2.up * jumpForce;
+        }
+
+        if (Input.GetButton("Jump") && isJumping == true)
+        {
+
+            if(jumpTimeCounter > 0)
+            {
+                playerRb.velocity = Vector2.up * jumpForce;
+                jumpTimeCounter -= Time.deltaTime; 
+            }
+
+            else
+            {
+                isJumping = false;
+            }
+            
+        }
+
+        if (Input.GetButtonUp("Jump"))
+        {
+            isJumping = false;
         }
     }
 
