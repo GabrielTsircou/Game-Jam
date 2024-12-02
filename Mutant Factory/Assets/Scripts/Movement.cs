@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class Movement : MonoBehaviour
@@ -8,10 +5,12 @@ public class Movement : MonoBehaviour
     private float move;
 
     private Vector2 CheckyPointy;
-    
+
     public KeyCode left, right, up, down;
     public float maxSpeed;
     public float buildUp;
+    public float input;
+    public SpriteRenderer spriteRenderer;
 
     private Rigidbody2D moveit;
     void Start()
@@ -20,21 +19,32 @@ public class Movement : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKey(left))
+        if (UnityEngine.Input.GetKey(left))
         {
             moveit.AddForce(Vector2.left * buildUp);
         }
-        if (Input.GetKey(right))
+        if (UnityEngine.Input.GetKey(right))
         {
             moveit.AddForce(Vector2.right * buildUp);
         }
-        if (Input.GetKey(up))
+        if (UnityEngine.Input.GetKey(up))
         {
             moveit.AddForce(Vector2.up * buildUp);
         }
-        if (Input.GetKey(down))
+        if (UnityEngine.Input.GetKey(down))
         {
             moveit.AddForce(Vector2.down * buildUp);
         }
+
+        input = Input.GetAxisRaw("Horizontal");
+        if (input < 0)
+        {
+            spriteRenderer.flipX = true;
+        }
+        else if (input > 0)
+        {
+            spriteRenderer.flipX = false;
+        }
     }
 }
+    

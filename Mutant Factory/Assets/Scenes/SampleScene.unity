@@ -354,6 +354,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8929759306634081876, guid: e50f6cf4cb103044b8207fd69b8c8a00, type: 3}
   m_PrefabInstance: {fileID: 8929759307049575766}
   m_PrefabAsset: {fileID: 0}
+--- !u!212 &740616933 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 8929759306634081879, guid: e50f6cf4cb103044b8207fd69b8c8a00, type: 3}
+  m_PrefabInstance: {fileID: 8929759307049575766}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &840605707
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -657,6 +662,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8929759306634081874, guid: e50f6cf4cb103044b8207fd69b8c8a00, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 740616933}
     - target: {fileID: 8929759306634081876, guid: e50f6cf4cb103044b8207fd69b8c8a00, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -724,6 +733,10 @@ PrefabInstance:
     - target: {fileID: 8929759306634081877, guid: e50f6cf4cb103044b8207fd69b8c8a00, type: 3}
       propertyPath: m_Offset.y
       value: -3.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8929759306634081879, guid: e50f6cf4cb103044b8207fd69b8c8a00, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8929759306634082217, guid: e50f6cf4cb103044b8207fd69b8c8a00, type: 3}
       propertyPath: m_Constraints
