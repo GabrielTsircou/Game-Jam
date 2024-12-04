@@ -9,7 +9,7 @@ public class Movement : MonoBehaviour
     public KeyCode left, right, up, down;
     public float maxSpeed;
     public float buildUp;
-    public float input;
+    float input;
     public SpriteRenderer spriteRenderer;
 
     private Rigidbody2D moveit;
