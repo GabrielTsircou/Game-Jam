@@ -1,11 +1,11 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class SmoothCameraNew : MonoBehaviour
 {
     public Transform playerTransform;
-    public Vector3 offset;
-    public float smoothSpeed = 0.125f;
-    public Transform barrierTransform;
+    public Vector3 offset; //from center
+    public float smoothSpeed = 1;
 
     private void LateUpdate()
     {
