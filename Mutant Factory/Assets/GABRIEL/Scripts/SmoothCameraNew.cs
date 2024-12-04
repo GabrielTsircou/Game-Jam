@@ -12,9 +12,5 @@ public class SmoothCameraNew : MonoBehaviour
         Vector3 desierdPositiion = playerTransform.position + offset; //follows player, accounts for offset
         Vector3 smoothedPosition = Vector3.Lerp(transform.position, desierdPositiion, smoothSpeed * Time.deltaTime); //the fuck is lerp
         transform.position = smoothedPosition; //sets final smooth position as camera position
-        if ((smoothedPosition == barrierTransform)
-        {
-
-        }
     }
 }
