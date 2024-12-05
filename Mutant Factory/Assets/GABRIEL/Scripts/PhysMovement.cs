@@ -15,9 +15,10 @@ public class PhysMovement : MonoBehaviour
     public bool uWalk = false;
     public bool lWalk = false;
     public bool rWalk = false;
+    public bool walk = false;
     // bool for toggling inertia
     public bool hasNoMass = false;
-    //public Animator animator;
+    public Animator animator;
     private Rigidbody2D _rb2d;
 
     public SpriteRenderer SpriteRenderer;
@@ -30,27 +31,30 @@ public class PhysMovement : MonoBehaviour
 
     void Update()  // Update is called once per frame
     {
-        //animator.SetBool("walk forward", fWalk);
-        //animator.SetBool("walk up", uWalk);
-        //animator.SetBool("walk left", lWalk);
-        //animator.SetBool("walk right", rWalk);
+        animator.SetBool("walk forward", fWalk);
+        animator.SetBool("walk up", uWalk);
+        animator.SetBool("walk left", lWalk);
+        animator.SetBool("walk right", rWalk);
 
         // sets the velocity to zero every frame if true
         if (hasNoMass == true)
         {
            _rb2d.velocity = Vector2.zero;
         }
-        
+
         if (Input.GetKey(left))
         {
+           { 
            _rb2d.velocity = Vector2.left * speed;
            lWalk = true;
            SpriteRenderer.flipX = true;
-
+           walk = true;
+           }
         }
         else
         {
             lWalk = false;
+            walk = false;
         }
 
         if (Input.GetKey(right))
@@ -58,30 +62,36 @@ public class PhysMovement : MonoBehaviour
             _rb2d.velocity = Vector2.right * speed;
            rWalk = true;
            SpriteRenderer.flipX = false;
+           walk = true;
         }
         else
         {
             rWalk = false;
+            walk = false;
         }
 
         if (Input.GetKey(up))
         {
             _rb2d.velocity = Vector2.up * speed;
             uWalk = true;
+            walk = true;
         }
         else
         {
             uWalk = false;
+            walk = false;
         }
 
         if (Input.GetKey(down))
         {
             _rb2d.velocity = Vector2.down * speed;
             fWalk = true;
+            walk = true;
         }
         else
         {
             fWalk = false;
+            walk = false;
         }
     }
 }
