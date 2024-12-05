@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/DELSIN/Scenes/Spawn.unity
+    guid: 49a86d990b96eec4dad01a1004056b5a
+  - enabled: 1
+    path: Assets/DELSIN/Scenes/AreaLeft.unity
+    guid: 052351ebce25f2e4bbb5e80ca688c496
+  - enabled: 1
+    path: Assets/DELSIN/Scenes/AreaMiddle.unity
+    guid: 3c7276195b67d3344bd818a4d0b67a88
+  - enabled: 1
+    path: Assets/DELSIN/Scenes/AreaRight.unity
+    guid: 8b330cbefafcf4543a1ca657a09378cb
   m_configObjects: {}
