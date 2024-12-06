@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Movement : MonoBehaviour
 {
@@ -16,24 +17,27 @@ public class Movement : MonoBehaviour
     void Start()
     {
         moveit = GetComponent<Rigidbody2D>();
+
+        if (PrePosition.scenePosPre.ContainsKey(SceneManager.GetActiveScene().name))
+            transform.position = PrePosition.scenePosPre[SceneManager.GetActiveScene().name];
     }
     void Update()
     {
         if (UnityEngine.Input.GetKey(left))
         {
-            moveit.AddForce(Vector2.left * buildUp);
+            moveit.AddForce(Vector2.left * buildUp * Time.deltaTime);
         }
         if (UnityEngine.Input.GetKey(right))
         {
-            moveit.AddForce(Vector2.right * buildUp);
+            moveit.AddForce(Vector2.right * buildUp * Time.deltaTime);
         }
         if (UnityEngine.Input.GetKey(up))
         {
-            moveit.AddForce(Vector2.up * buildUp);
+            moveit.AddForce(Vector2.up * buildUp * Time.deltaTime);
         }
         if (UnityEngine.Input.GetKey(down))
         {
-            moveit.AddForce(Vector2.down * buildUp);
+            moveit.AddForce(Vector2.down * buildUp * Time.deltaTime);
         }
 
         input = Input.GetAxisRaw("Horizontal");
