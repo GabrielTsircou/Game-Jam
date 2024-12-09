@@ -1,0 +1,500 @@
+fileFormatVersion: 2
+guid: 47e2fdf2fd7db9748b3a8a865979427d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Main Character Walking Animation Sprite Sheet Test 1_0
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1975
+        width: 454
+        height: 970
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc83563a5f81ec4f9425c9082542542
+      internalID: -815596550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Walking Animation Sprite Sheet Test 1_1
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1979
+        width: 492
+        height: 940
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8356f894d48da0d46bdc20c6c82d7bf5
+      internalID: 1291063159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Walking Animation Sprite Sheet Test 1_2
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 1961
+        width: 314
+        height: 934
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0772ca5c56669b4f8543b8a00365b5e
+      internalID: 1354186220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Walking Animation Sprite Sheet Test 1_3
+      rect:
+        serializedVersion: 2
+        x: 2825
+        y: 1916
+        width: 363
+        height: 948
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121bb2a737a988f4582c4909211b2001
+      internalID: 640357877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Walking Animation Sprite Sheet Test 1_4
+      rect:
+        serializedVersion: 2
+        x: 3631
+        y: 1872
+        width: 454
+        height: 970
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a61986fa4877745ae1015c449b32cb
+      internalID: -25715859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Walking Animation Sprite Sheet Test 1_5
+      rect:
+        serializedVersion: 2
+        x: 4496
+        y: 1862
+        width: 493
+        height: 937
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef51c54d12d29a14aba211b3be3b26ad
+      internalID: -421087290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Walking Animation Sprite Sheet Test 1_6
+      rect:
+        serializedVersion: 2
+        x: 5389
+        y: 1843
+        width: 312
+        height: 929
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82e12a2a8117e44fa668aa66389c747
+      internalID: 1311902509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Walking Animation Sprite Sheet Test 1_7
+      rect:
+        serializedVersion: 2
+        x: 6166
+        y: 1793
+        width: 358
+        height: 950
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d26a7095066c41438ff5e1fa4304fd4
+      internalID: 684969766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Walking Animation Sprite Sheet Test 1_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 285.5
+        width: 845
+        height: 1187.5
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2556a23c417b247944540f22924779
+      internalID: 25629706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Walking Animation Sprite Sheet Test 1_9
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 285.5
+        width: 845
+        height: 1187.5
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf38e88eb598974c926787ff5e0d639
+      internalID: -1082553417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Walking Animation Sprite Sheet Test 1_10
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 285.5
+        width: 845
+        height: 1187.5
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b141ed579e451a642a1ab6ad33715edf
+      internalID: 949692255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Walking Animation Sprite Sheet Test 1_11
+      rect:
+        serializedVersion: 2
+        x: 2535
+        y: 285.5
+        width: 845
+        height: 1187.5
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eef5cebdf7baef40a6b437a9418939c
+      internalID: 941220161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Walking Animation Sprite Sheet Test 1_12
+      rect:
+        serializedVersion: 2
+        x: 3380
+        y: 285.5
+        width: 845
+        height: 1187.5
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0ea2184b7ca504f979638ee70f76b4
+      internalID: 427832791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Walking Animation Sprite Sheet Test 1_13
+      rect:
+        serializedVersion: 2
+        x: 4225
+        y: 285.5
+        width: 845
+        height: 1187.5
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd9dc15ced435b4c8e025d39aae9096
+      internalID: -407680257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Walking Animation Sprite Sheet Test 1_14
+      rect:
+        serializedVersion: 2
+        x: 5070
+        y: 285.5
+        width: 845
+        height: 1187.5
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aaf431b2f0e4e246ac1dd096bb07cfe
+      internalID: -1878652800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Walking Animation Sprite Sheet Test 1_15
+      rect:
+        serializedVersion: 2
+        x: 5915
+        y: 285.5
+        width: 845
+        height: 1187.5
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e2a9dbfa7223448a16417cc95d8423
+      internalID: 495733983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c34faf5712fe8654c9b9ba3fc04ba615
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Main Character Walking Animation Sprite Sheet Test 1_5: -421087290
+      Main Character Walking Animation Sprite Sheet Test 1_8: 25629706
+      Main Character Walking Animation Sprite Sheet Test 1_11: 941220161
+      Main Character Walking Animation Sprite Sheet Test 1_14: -1878652800
+      Main Character Walking Animation Sprite Sheet Test 1_4: -25715859
+      Main Character Walking Animation Sprite Sheet Test 1_7: 684969766
+      Main Character Walking Animation Sprite Sheet Test 1_3: 640357877
+      Main Character Walking Animation Sprite Sheet Test 1_1: 1291063159
+      Main Character Walking Animation Sprite Sheet Test 1_0: -815596550
+      Main Character Walking Animation Sprite Sheet Test 1_9: -1082553417
+      Main Character Walking Animation Sprite Sheet Test 1_2: 1354186220
+      Main Character Walking Animation Sprite Sheet Test 1_10: 949692255
+      Main Character Walking Animation Sprite Sheet Test 1_12: 427832791
+      Main Character Walking Animation Sprite Sheet Test 1_13: -407680257
+      Main Character Walking Animation Sprite Sheet Test 1_15: 495733983
+      Main Character Walking Animation Sprite Sheet Test 1_6: 1311902509
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
