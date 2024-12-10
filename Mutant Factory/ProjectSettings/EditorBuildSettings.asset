@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/DELSIN/Scenes/AreaRight.unity
     guid: 8b330cbefafcf4543a1ca657a09378cb
+  - enabled: 1
+    path: Assets/DELSIN/Scenes/Cemetary.unity
+    guid: 5d6251bb8a1c9f848a0055a1ecd24689
+  - enabled: 1
+    path: Assets/DELSIN/Scenes/Church.unity
+    guid: 1cb04dfc7deea2546919c716647c6a7c
   m_configObjects: {}
