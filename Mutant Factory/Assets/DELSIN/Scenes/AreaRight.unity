@@ -580,6 +580,7 @@ GameObject:
   - component: {fileID: 977438867}
   - component: {fileID: 977438866}
   - component: {fileID: 977438868}
+  - component: {fileID: 977438869}
   m_Layer: 0
   m_Name: pinetree
   m_TagString: Untagged
@@ -680,6 +681,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 20}
   m_EdgeRadius: 0
+--- !u!114 &977438869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 977438865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6432b39f3ecdd1f46973b6f2c5d2c893, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  j: Church
 --- !u!1001 &1626265552
 PrefabInstance:
   m_ObjectHideFlags: 0
