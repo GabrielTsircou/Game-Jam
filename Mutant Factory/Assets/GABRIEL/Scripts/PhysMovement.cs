@@ -11,10 +11,10 @@ public class PhysMovement : MonoBehaviour
     // sets move speed
     public float speed = 10;
     // vectors for animators
-    public bool fWalk = false;
-    public bool uWalk = false;
-    public bool lWalk = false;
-    public bool rWalk = false;
+    //public bool fWalk = false;
+    //public bool uWalk = false;
+    //public bool lWalk = false;
+    //public bool rWalk = false;
     public bool walk = false;
     // bool for toggling inertia
     public bool hasNoMass = false;
@@ -31,11 +31,11 @@ public class PhysMovement : MonoBehaviour
 
     void Update()  // Update is called once per frame
     {
-        animator.SetBool("walk forward", fWalk);
-        animator.SetBool("walk up", uWalk);
-        animator.SetBool("walk left", lWalk);
-        animator.SetBool("walk right", rWalk);
-
+        //animator.SetBool("walk forward", fWalk);
+        //animator.SetBool("walk up", uWalk);
+        //animator.SetBool("walk left", lWalk);
+        //animator.SetBool("walk right", rWalk);
+        animator.SetBool("iswalk", walk);
         // sets the velocity to zero every frame if true
         if (hasNoMass == true)
         {
@@ -46,51 +46,51 @@ public class PhysMovement : MonoBehaviour
         {
            { 
            _rb2d.velocity = Vector2.left * speed;
-           lWalk = true;
+           //lWalk = true;
            SpriteRenderer.flipX = true;
            walk = true;
            }
         }
         else
         {
-            lWalk = false;
+            //lWalk = false;
             walk = false;
         }
 
         if (Input.GetKey(right))
         {
             _rb2d.velocity = Vector2.right * speed;
-           rWalk = true;
+           //rWalk = true;
            SpriteRenderer.flipX = false;
            walk = true;
         }
         else
         {
-            rWalk = false;
+            //rWalk = false;
             walk = false;
         }
 
         if (Input.GetKey(up))
         {
             _rb2d.velocity = Vector2.up * speed;
-            uWalk = true;
+            //uWalk = true;
             walk = true;
         }
         else
         {
-            uWalk = false;
+            //uWalk = false;
             walk = false;
         }
 
         if (Input.GetKey(down))
         {
             _rb2d.velocity = Vector2.down * speed;
-            fWalk = true;
+            //fWalk = true;
             walk = true;
         }
         else
         {
-            fWalk = false;
+            //fWalk = false;
             walk = false;
         }
     }
