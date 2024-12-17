@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8929759306634081876}
   - component: {fileID: 8929759306634081879}
+  - component: {fileID: 6486444256619353460}
   - component: {fileID: 8929759306634082217}
   - component: {fileID: 8929759306634081877}
-  - component: {fileID: 2781690319658026311}
   - component: {fileID: 8929759306634081874}
   m_Layer: 0
   m_Name: PlaceHold Player
@@ -88,6 +88,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6486444256619353460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8929759306634082219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44140fcd72e0113449449cf10123447f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  left: 97
+  right: 100
+  up: 119
+  down: 115
+  speed: 10
+  fWalk: 0
+  uWalk: 0
+  lWalk: 0
+  rWalk: 0
+  walk: 0
+  hasNoMass: 0
+  animator: {fileID: 0}
+  SpriteRenderer: {fileID: 0}
+  input: 0
 --- !u!50 &8929759306634082217
 Rigidbody2D:
   serializedVersion: 4
@@ -135,31 +161,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 10.72, y: 9.44}
   m_EdgeRadius: 0
---- !u!114 &2781690319658026311
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8929759306634082219}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44140fcd72e0113449449cf10123447f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  left: 97
-  right: 100
-  up: 119
-  down: 115
-  speed: 10
-  fWalk: 0
-  uWalk: 0
-  lWalk: 0
-  rWalk: 0
-  hasNoMass: 0
-  animator: {fileID: 0}
-  SpriteRenderer: {fileID: 0}
-  input: 0
 --- !u!114 &8929759306634081874
 MonoBehaviour:
   m_ObjectHideFlags: 0
