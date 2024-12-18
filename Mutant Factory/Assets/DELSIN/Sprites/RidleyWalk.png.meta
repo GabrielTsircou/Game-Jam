@@ -1,0 +1,6704 @@
+fileFormatVersion: 2
+guid: de7385689c1eedf4dac98726378843e3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RidleyWalk_0
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 2954
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f960c21e0bad64e83498624f4a37ab
+      internalID: -1363189287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_1
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1974
+        width: 456
+        height: 980
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7830c40914de5e04389ae81b19fbfbe0
+      internalID: 38677388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_2
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 1977
+        width: 496
+        height: 947
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754ffa88eb617ba49b1eb1cb516ea9d3
+      internalID: -759000739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_3
+      rect:
+        serializedVersion: 2
+        x: 1977
+        y: 1947
+        width: 439
+        height: 961
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2311523e25eecc845808fb8d160ff331
+      internalID: -1856574536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_4
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 2901
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f4746e908a51f4880b22731b3ebbad
+      internalID: 1171795656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_5
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 2894
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc45baa01de2ac4bb85edb52d3f19cf
+      internalID: 1285885874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_6
+      rect:
+        serializedVersion: 2
+        x: 2822
+        y: 1914
+        width: 370
+        height: 964
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748c17dba9e5b6e45a5a64ea3dc06cd6
+      internalID: 1279973723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_7
+      rect:
+        serializedVersion: 2
+        x: 3076
+        y: 2871
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55bcf16442d4f04898102fcb0002f5c
+      internalID: 1694712859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_8
+      rect:
+        serializedVersion: 2
+        x: 3628
+        y: 1871
+        width: 455
+        height: 980
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecfd78966bd99184bb8696dd54675559
+      internalID: 1098908922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_9
+      rect:
+        serializedVersion: 2
+        x: 3898
+        y: 2848
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dbd818d117f68449886263be76a701a
+      internalID: -1186381696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_10
+      rect:
+        serializedVersion: 2
+        x: 4492
+        y: 1858
+        width: 495
+        height: 951
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512128c8024b9f04faafd9ecfc4b0676
+      internalID: -657314971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_11
+      rect:
+        serializedVersion: 2
+        x: 5601
+        y: 2782
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b85d723933d11f4bb5d0dc94505217e
+      internalID: 1181309066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_12
+      rect:
+        serializedVersion: 2
+        x: 5344
+        y: 1828
+        width: 356
+        height: 951
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbce28544574854483a1103e1966037
+      internalID: -2076510191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_13
+      rect:
+        serializedVersion: 2
+        x: 6136
+        y: 1795
+        width: 396
+        height: 957
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18e18ce92e6661489860b39f4ccdf32
+      internalID: -1211091916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_14
+      rect:
+        serializedVersion: 2
+        x: 6417
+        y: 2749
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b22d13134669a74988e4ff8932102a9
+      internalID: -742988966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_15
+      rect:
+        serializedVersion: 2
+        x: 2693
+        y: 2683
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e038d7127b12d4c99a4c0ef30091f6
+      internalID: 2107008123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_16
+      rect:
+        serializedVersion: 2
+        x: 5700
+        y: 2686
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551eb4e7c1cf9fd48ab782a00cad1166
+      internalID: -1253194739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_17
+      rect:
+        serializedVersion: 2
+        x: 5700
+        y: 2604
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0a56176fda15f47aeb58adc71fbf48
+      internalID: -1175848736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_18
+      rect:
+        serializedVersion: 2
+        x: 1954
+        y: 2426
+        width: 33
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5de89f7c8e8c34690d6c608415f7e2
+      internalID: 1659988169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_19
+      rect:
+        serializedVersion: 2
+        x: 6034
+        y: 2561
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab5e5270b6d4f548a0c8d4981ef24e9
+      internalID: 1620053289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_20
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 2472
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8f853d99599ec40aeedc6a6d51c1f1
+      internalID: -461810382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_21
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 2234
+        width: 43
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc8dfb66e9afa244a5a0447afaeba26
+      internalID: 869242522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_22
+      rect:
+        serializedVersion: 2
+        x: 2736
+        y: 2436
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c15de01dd93ad4b94e2d45a707d404
+      internalID: 1171304521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_23
+      rect:
+        serializedVersion: 2
+        x: 2759
+        y: 2439
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695597155c20c3d4d8cba34d97e25beb
+      internalID: 796228627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_24
+      rect:
+        serializedVersion: 2
+        x: 5321
+        y: 2178
+        width: 63
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3d3d81736712b4badb7323ae117ea3
+      internalID: 1780666916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_25
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 2343
+        width: 23
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c09d065c9442d43ba4c75a11ddf4ce
+      internalID: -498989755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_26
+      rect:
+        serializedVersion: 2
+        x: 2736
+        y: 2413
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440a5ee5f0baba748b4767c1ed5dd51d
+      internalID: 790262533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_27
+      rect:
+        serializedVersion: 2
+        x: 2746
+        y: 2409
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0827f1dcce3a46a46bb4d3fa37c03f19
+      internalID: 290727473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_28
+      rect:
+        serializedVersion: 2
+        x: 1974
+        y: 2403
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81039fb2e31d23d48bb8e64a7e5d09b5
+      internalID: 239742617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_29
+      rect:
+        serializedVersion: 2
+        x: 2736
+        y: 2403
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c4e6ac71ad49445bbf32ec495fbec9
+      internalID: 35198412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_30
+      rect:
+        serializedVersion: 2
+        x: 2746
+        y: 2399
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7392c27eb36e4c449b4e9d277490bb4
+      internalID: 1706503572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_31
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 2383
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdefca5d63e9c2349af5fbd8a4ce2378
+      internalID: -1364979851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_32
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 2383
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5411cf40bf63f7a4d945e7de43e585a1
+      internalID: -9650217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_33
+      rect:
+        serializedVersion: 2
+        x: 2707
+        y: 2175
+        width: 43
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7edb92a691b6c645b2592b817b1ba9e
+      internalID: 2142674570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_34
+      rect:
+        serializedVersion: 2
+        x: 5232
+        y: 2119
+        width: 53
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4aacaf8ade8bcc4ebe8492dd8c6f7c5
+      internalID: 1602632471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_35
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 2353
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17363bcf655a60f47812ef408ccf3967
+      internalID: -758036864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_36
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 2356
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a754d48e2b3a2e940907dfc92b4c86e7
+      internalID: 1916264290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_37
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 2350
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d64bbf02ee00949be8608504b0e990
+      internalID: -713598682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_38
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 2333
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a51a3dd2efe7346af915cedf3f8e12
+      internalID: -1489806776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_39
+      rect:
+        serializedVersion: 2
+        x: 1954
+        y: 2327
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d04755da6c30a84baba4532e311fadd
+      internalID: -1665489068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_40
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 2317
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682244d308a6fd64f85a528180bea203
+      internalID: 1413162669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_41
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 2323
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48bf0d33d4a995f4b879d753e1b50bdb
+      internalID: 1440706248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_42
+      rect:
+        serializedVersion: 2
+        x: 5384
+        y: 2224
+        width: 16
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ae75bf05a8ca849b2901d06acb1ef0
+      internalID: 569184987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_43
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 2300
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9074e1c8f738dae4c96a482a4eddeee8
+      internalID: 1600283106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_44
+      rect:
+        serializedVersion: 2
+        x: 6077
+        y: 2314
+        width: 26
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deeec714017b463439c38e8bf24bd861
+      internalID: -321900815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_45
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 2297
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2de78ee8c565941b8a022ebe583c58
+      internalID: -27514389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_46
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 2300
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f8881af96ccf94581e6e0edd0934f0
+      internalID: 1930252136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_47
+      rect:
+        serializedVersion: 2
+        x: 1974
+        y: 2300
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33622d71b5b020c43a5274e614dc3155
+      internalID: 2002333618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_48
+      rect:
+        serializedVersion: 2
+        x: 2367
+        y: 2300
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea53990655dec324a84d4679890052c4
+      internalID: 516025041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_49
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 2284
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad45429a7ba1ca84cac6fb841abcc648
+      internalID: -1051997752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_50
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 2264
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7374ec9fd20064c4a88b222105db2a02
+      internalID: -1218264828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_51
+      rect:
+        serializedVersion: 2
+        x: 3268
+        y: 2290
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85dcc52eff92e244dbc807757ecbfb6f
+      internalID: 2112117065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_52
+      rect:
+        serializedVersion: 2
+        x: 6077
+        y: 2281
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238039d3b3fdd104293ffab2b2f3a303
+      internalID: -457379192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_53
+      rect:
+        serializedVersion: 2
+        x: 6077
+        y: 2290
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57459ec2af4fa704b941e2fbd50deff7
+      internalID: 1748104025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_54
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 2238
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c22e88b516401b43a0d4f87e4a2df43
+      internalID: -1128128580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_55
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 2244
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403006ed5f58cb74c88ae44562b0c5aa
+      internalID: -28671637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_56
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 2274
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b709daf9fd0ef4cb4bba5bb218bc71
+      internalID: 811754782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_57
+      rect:
+        serializedVersion: 2
+        x: 6083
+        y: 2277
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16aa3cea61d8244d8a077a887907239
+      internalID: 1585376112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_58
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 2264
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ec8ec29b9376d49909943c41e19a49
+      internalID: 1208045874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_59
+      rect:
+        serializedVersion: 2
+        x: 5222
+        y: 2257
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7482bd6bc12015941b75a44b8bd4e8bc
+      internalID: -1141979942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_60
+      rect:
+        serializedVersion: 2
+        x: 6044
+        y: 2053
+        width: 46
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451fdc83fb11c95439d815e0377b5a2e
+      internalID: 181002191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_61
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 2244
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782937718d7a79c42957a44944957efd
+      internalID: -393368587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_62
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 2248
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7a369f23831c846a9ef4c3b045afea
+      internalID: 1868607058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_63
+      rect:
+        serializedVersion: 2
+        x: 3241
+        y: 2238
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108b9ac5e13aa5d43b05e8ca1b6e813a
+      internalID: -1735193403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_64
+      rect:
+        serializedVersion: 2
+        x: 3548
+        y: 2248
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0282bfbdb2c1d4d8033133c0833948
+      internalID: -1257664557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_65
+      rect:
+        serializedVersion: 2
+        x: 2680
+        y: 2238
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee645af49503644c819ce9b22ed0c28
+      internalID: 1344844701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_66
+      rect:
+        serializedVersion: 2
+        x: 2690
+        y: 2205
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4f9321e3895ab499d6b38d6897a09b
+      internalID: -1054123173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_67
+      rect:
+        serializedVersion: 2
+        x: 5790
+        y: 2231
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce92145fe7fb494cb601b371e300133
+      internalID: 1721713276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_68
+      rect:
+        serializedVersion: 2
+        x: 2677
+        y: 2224
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f85718d17d341d438e5c3e0bd455bc2
+      internalID: -1962699000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_69
+      rect:
+        serializedVersion: 2
+        x: 2763
+        y: 2208
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ff602668b497e41a0f08eedcf43fbd
+      internalID: 729918585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_70
+      rect:
+        serializedVersion: 2
+        x: 4440
+        y: 2218
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5878ce0a29711fc419fb63db4d3f3aa5
+      internalID: 430135482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_71
+      rect:
+        serializedVersion: 2
+        x: 2746
+        y: 2175
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0683e77342d0dcc4d8d6588dbf2c76cf
+      internalID: 1110948446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_72
+      rect:
+        serializedVersion: 2
+        x: 2796
+        y: 2201
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3088294be7518f4db436105947883a2
+      internalID: -883688313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_73
+      rect:
+        serializedVersion: 2
+        x: 6040
+        y: 2201
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa34c932b3d2d142afb1a3dbdc4aa19
+      internalID: -1360880893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_74
+      rect:
+        serializedVersion: 2
+        x: 6156
+        y: 2201
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2950ec645ba394d870e139e15521e2
+      internalID: -1601888372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_75
+      rect:
+        serializedVersion: 2
+        x: 2710
+        y: 2182
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c43deb4fff37d44b6e8ebf2aff2bd2
+      internalID: -165535292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_76
+      rect:
+        serializedVersion: 2
+        x: 2812
+        y: 2185
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a481121f1aaa643ad804428000759a
+      internalID: 1327298269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_77
+      rect:
+        serializedVersion: 2
+        x: 5202
+        y: 2178
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c4eb089a944af478ed4a17969b9f49
+      internalID: 1750035633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_78
+      rect:
+        serializedVersion: 2
+        x: 5268
+        y: 2116
+        width: 43
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530a568a10306ee49924706c5264b099
+      internalID: 1377348720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_79
+      rect:
+        serializedVersion: 2
+        x: 5367
+        y: 2178
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217ea29b698c7db43b6eac35a22f5871
+      internalID: -1488397991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_80
+      rect:
+        serializedVersion: 2
+        x: 5763
+        y: 2178
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fea3cdd3ec9f404ea684b2e50ea18fd
+      internalID: 53807909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_81
+      rect:
+        serializedVersion: 2
+        x: 5199
+        y: 2165
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f763db46549d6034ba79e05ebb7b7f4a
+      internalID: -393082198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_82
+      rect:
+        serializedVersion: 2
+        x: 5212
+        y: 2142
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd8bc993fae5944da4e9dc0b8919a6e
+      internalID: -511765438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_83
+      rect:
+        serializedVersion: 2
+        x: 5334
+        y: 2125
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9524af008d3534142b47a2d5ffd0ee81
+      internalID: 1414524912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_84
+      rect:
+        serializedVersion: 2
+        x: 6608
+        y: 2168
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7cbaf083d6c4304aaaaac00d632822b
+      internalID: -1765735501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_85
+      rect:
+        serializedVersion: 2
+        x: 5321
+        y: 2152
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9ef113cfd6dfa478dc3e76ac908da2
+      internalID: 1508278886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_86
+      rect:
+        serializedVersion: 2
+        x: 5374
+        y: 2142
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7083662097db3546afe7b570f850f21
+      internalID: -1723175439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_87
+      rect:
+        serializedVersion: 2
+        x: 5318
+        y: 2132
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13bafa47135fb5b4faf4b7799aea06f5
+      internalID: 1499252350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_88
+      rect:
+        serializedVersion: 2
+        x: 5370
+        y: 2125
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d1f40e127af2e4096c2970ecfbfc85
+      internalID: -957366981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_89
+      rect:
+        serializedVersion: 2
+        x: 5809
+        y: 2132
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840cdf699de6a6848ba1b135b15fc1d5
+      internalID: -1873344166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_90
+      rect:
+        serializedVersion: 2
+        x: 5826
+        y: 2132
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b7200fa800d324f80e7182c5652858
+      internalID: -1182041722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_91
+      rect:
+        serializedVersion: 2
+        x: 6549
+        y: 2125
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585f948812e68d64e8a1b76396e5d3a9
+      internalID: 490637311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_92
+      rect:
+        serializedVersion: 2
+        x: 5311
+        y: 2125
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb125fb71e48214997fd5fb497719e5
+      internalID: -943506980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_93
+      rect:
+        serializedVersion: 2
+        x: 5793
+        y: 2122
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db7ff4d67bac244eb959baf8a8461bc
+      internalID: -822124801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_94
+      rect:
+        serializedVersion: 2
+        x: 6582
+        y: 2116
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da9373f076bcd447ba8cfc31b8ee102
+      internalID: 779659619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_95
+      rect:
+        serializedVersion: 2
+        x: 5258
+        y: 2116
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7f7f3ce581b59478147aea792f4d74
+      internalID: 1627334771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_96
+      rect:
+        serializedVersion: 2
+        x: 5809
+        y: 2119
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df42ca289f4819942a2f214ca658b006
+      internalID: -62167312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_97
+      rect:
+        serializedVersion: 2
+        x: 5836
+        y: 2079
+        width: 13
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92c646f48a4b9e439decd653d1c4b8f
+      internalID: -469612998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_98
+      rect:
+        serializedVersion: 2
+        x: 6021
+        y: 2116
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22578d556d9177d41b21fed3e72b3102
+      internalID: -1649747817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_99
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 2092
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e812755b016a39947b423f79d849005f
+      internalID: 622328712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_100
+      rect:
+        serializedVersion: 2
+        x: 5796
+        y: 2099
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814b243072897d742851bc8c89eb8530
+      internalID: 745989701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_101
+      rect:
+        serializedVersion: 2
+        x: 5809
+        y: 2089
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db29202c7dcc21449b948b6297bffc03
+      internalID: 756981626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_102
+      rect:
+        serializedVersion: 2
+        x: 6017
+        y: 2102
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4758ef5c8759e04e83fd210556cd343
+      internalID: 2099472717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_103
+      rect:
+        serializedVersion: 2
+        x: 6031
+        y: 2083
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73f5c92d260f484c818ef64155a3476
+      internalID: 994333081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_104
+      rect:
+        serializedVersion: 2
+        x: 6106
+        y: 2089
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3ac8072bf7ae14898872b52f0d1aec
+      internalID: 1807467375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_105
+      rect:
+        serializedVersion: 2
+        x: 1947
+        y: 2086
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbfcedf43541bbc4f8c25ffc60934459
+      internalID: 1708501162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_106
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 2023
+        width: 10
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ed764c54db8e346acc4dc0492c108b
+      internalID: -1256841062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_107
+      rect:
+        serializedVersion: 2
+        x: 1964
+        y: 2056
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5fddded0ffc0b241b4297fcb301d2b5
+      internalID: -429471535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_108
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 2046
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9e1d09637c72c4c8af2e05c8566f18
+      internalID: -1927462198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_109
+      rect:
+        serializedVersion: 2
+        x: 2317
+        y: 2050
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f51e017f9671b48ab14e53d561d4d2
+      internalID: -662801076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_110
+      rect:
+        serializedVersion: 2
+        x: 5856
+        y: 2050
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54cb4266bda91334dadc91e736768fa4
+      internalID: -1771134640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_111
+      rect:
+        serializedVersion: 2
+        x: 5875
+        y: 2059
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4656eee81ed29e14a88b039eae86adec
+      internalID: 1255470677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_112
+      rect:
+        serializedVersion: 2
+        x: 6087
+        y: 2053
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a0206545cfbc9479b81a62e34f0baf
+      internalID: 888505720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_113
+      rect:
+        serializedVersion: 2
+        x: 6097
+        y: 2056
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d963fbda0b6d48489f3d25abce595aa
+      internalID: 477472732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_114
+      rect:
+        serializedVersion: 2
+        x: 6153
+        y: 2063
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11786b58a6781d43b003ec992e01fda
+      internalID: 197040511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_115
+      rect:
+        serializedVersion: 2
+        x: 5846
+        y: 2040
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dffd426fb35bf384886997c66c57278d
+      internalID: -1673111028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_116
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 2023
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d03970ec89f33443876816e3eb64690
+      internalID: -427389915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_117
+      rect:
+        serializedVersion: 2
+        x: 5823
+        y: 2013
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03b2e1a463c6b942a79d86092d2284d
+      internalID: 1889292865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_118
+      rect:
+        serializedVersion: 2
+        x: 2806
+        y: 1964
+        width: 10
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425b5586eca4a314c8794e3ba7fc4b3f
+      internalID: 1424983612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_119
+      rect:
+        serializedVersion: 2
+        x: 5823
+        y: 1983
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cbc98c1814bc044ca30a5e52bdd18e7
+      internalID: -175272217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_120
+      rect:
+        serializedVersion: 2
+        x: 5849
+        y: 1997
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92057ad57d054b41a5b4c7ef77f9e46
+      internalID: 1349148907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_121
+      rect:
+        serializedVersion: 2
+        x: 3192
+        y: 1990
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8457fc4d5b085f64dab3e9336ffcfb4e
+      internalID: 2055865010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_122
+      rect:
+        serializedVersion: 2
+        x: 5364
+        y: 1970
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e531afae0480c164e92677ebad022d24
+      internalID: -1637227062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_123
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 1974
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f139866fa2474498a7e4b6367e5568
+      internalID: -761706056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_124
+      rect:
+        serializedVersion: 2
+        x: 5697
+        y: 1964
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7c197c509e1944089996765deb2fe1
+      internalID: 1854393798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_125
+      rect:
+        serializedVersion: 2
+        x: 2759
+        y: 1924
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709fdadfbd4188145bd604364c6f382a
+      internalID: 565507189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_126
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 1927
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70efefa6648cade4f9c833e163b787d3
+      internalID: 2090206360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_127
+      rect:
+        serializedVersion: 2
+        x: 5714
+        y: 1931
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cde188ecd2d61642ab4748ce544d688
+      internalID: 1443897168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_128
+      rect:
+        serializedVersion: 2
+        x: 2733
+        y: 1888
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a883f5759b3684e853b98f26a65699
+      internalID: 1893187076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_129
+      rect:
+        serializedVersion: 2
+        x: 2753
+        y: 1898
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dcc2c4931ba44a4fb7eb3f3cff740c8
+      internalID: -1213156028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_130
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 1901
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327ea966b2a46814485ad0d405720fc8
+      internalID: -268468024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_131
+      rect:
+        serializedVersion: 2
+        x: 3066
+        y: 1891
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e896732eb7ac8644b8430e2c0f60915e
+      internalID: -954958198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_132
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 1884
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baecbcb09ca78d94b8034e6ecea2374c
+      internalID: 671342733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_133
+      rect:
+        serializedVersion: 2
+        x: 2812
+        y: 1888
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88abdd08954fe364683a224a2d2cf202
+      internalID: 209776877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_134
+      rect:
+        serializedVersion: 2
+        x: 2832
+        y: 1891
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22a00ad90e4bb248b6287e2232d9a70
+      internalID: -1286051798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_135
+      rect:
+        serializedVersion: 2
+        x: 3033
+        y: 1888
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0801dda8bd4418040b9be932e73f62ed
+      internalID: -1304250851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_136
+      rect:
+        serializedVersion: 2
+        x: 5700
+        y: 1891
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5624fc29f5d94f446afd1512d1e2b4e1
+      internalID: -267685795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_137
+      rect:
+        serializedVersion: 2
+        x: 6532
+        y: 1868
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a8333a5031abd4eabe49625ea035e5
+      internalID: -1294545256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_138
+      rect:
+        serializedVersion: 2
+        x: 6156
+        y: 1815
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b5488d4aa3d264c93277f15e1f2262
+      internalID: -1770296604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_139
+      rect:
+        serializedVersion: 2
+        x: 6097
+        y: 1805
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9daf173c73767af40aaf7367c882a07b
+      internalID: 578462254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_140
+      rect:
+        serializedVersion: 2
+        x: 6073
+        y: 1766
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebba825d35102f4bb43f57a67054e53
+      internalID: 1769877054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_141
+      rect:
+        serializedVersion: 2
+        x: 6093
+        y: 1776
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17953906ef33a314cafe6e2302a685c0
+      internalID: -21888273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_142
+      rect:
+        serializedVersion: 2
+        x: 6156
+        y: 1779
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9dd67ae92d71b46a78e70143deced1
+      internalID: -1778615923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_143
+      rect:
+        serializedVersion: 2
+        x: 6172
+        y: 1769
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ceddfd606cf8e46b0c6399a9ef1882
+      internalID: -1692558200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_144
+      rect:
+        serializedVersion: 2
+        x: 6407
+        y: 1769
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e17ee8b35f0194cb970d62551fb913
+      internalID: 1057753984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_145
+      rect:
+        serializedVersion: 2
+        x: 6090
+        y: 1762
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a77d39235a01b941bc147d3ec91b8e2
+      internalID: 1862260093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_146
+      rect:
+        serializedVersion: 2
+        x: 6153
+        y: 1766
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaef7b780f1509a43b9b4a94f2452fab
+      internalID: -71029482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_147
+      rect:
+        serializedVersion: 2
+        x: 6374
+        y: 1766
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b56be7734e970c44959c77dcc41e2da
+      internalID: 2058695811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_148
+      rect:
+        serializedVersion: 2
+        x: 2852
+        y: 1432
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960d29fd571656f4a9e58fa21c47ca70
+      internalID: -1145067085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_149
+      rect:
+        serializedVersion: 2
+        x: 2743
+        y: 475
+        width: 373
+        height: 957
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fff2b949082b6f40b19237457f26781
+      internalID: 917807908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_150
+      rect:
+        serializedVersion: 2
+        x: 3799
+        y: 1422
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c51d7944607974b8611919322a585f
+      internalID: -1305662235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_151
+      rect:
+        serializedVersion: 2
+        x: 3522
+        y: 442
+        width: 558
+        height: 977
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e58c626e0ee0bb47918eebff8ed039c
+      internalID: 1895233348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_152
+      rect:
+        serializedVersion: 2
+        x: 6295
+        y: 1389
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ccb0a28c0c43ab4d8135e3df80f1985
+      internalID: -56704569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_153
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1373
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4694016e4038e6542b4da1966722b140
+      internalID: -1177267060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_154
+      rect:
+        serializedVersion: 2
+        x: 4714
+        y: 1373
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96126eb8ddc00414f8f4dce552d7af24
+      internalID: -158986466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_155
+      rect:
+        serializedVersion: 2
+        x: 6186
+        y: 432
+        width: 399
+        height: 954
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c76a52fc782a647ae60ba3c906fe7d
+      internalID: -1525445721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_156
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 393
+        width: 458
+        height: 977
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e8d12180489be49b169303ec8c52c9
+      internalID: 633407828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_157
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1366
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab32d7ed20c50b44906afcb28ffbb09
+      internalID: 729447667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_158
+      rect:
+        serializedVersion: 2
+        x: 4535
+        y: 393
+        width: 459
+        height: 977
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63523e8a74f07f14bb1dfb72b7e00d35
+      internalID: -808842371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_159
+      rect:
+        serializedVersion: 2
+        x: 4763
+        y: 1366
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b18589fdf6e234fa444af28aa6b716
+      internalID: 2105975415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_160
+      rect:
+        serializedVersion: 2
+        x: 5479
+        y: 409
+        width: 320
+        height: 954
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4cf2ad2923a2941829ed83ee41fea8
+      internalID: -1679070637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_161
+      rect:
+        serializedVersion: 2
+        x: 5575
+        y: 1360
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db900e3a84eacce40bd07d41756b1bfe
+      internalID: -139348066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_162
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 403
+        width: 317
+        height: 953
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3cbe4dc2ba8ae43b3b8c897b69a623
+      internalID: -823643103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_163
+      rect:
+        serializedVersion: 2
+        x: 2037
+        y: 1353
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a23d15a34b61f43898d8416123429c
+      internalID: -1782176643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_164
+      rect:
+        serializedVersion: 2
+        x: 5502
+        y: 1350
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae94d302935456140b93ccb552525be4
+      internalID: -178597434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_165
+      rect:
+        serializedVersion: 2
+        x: 1964
+        y: 1343
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4c7418fa6b6d34295626ea600bcbeb
+      internalID: 1603141808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_166
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 396
+        width: 496
+        height: 947
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1b14ca3004f7443942ec7bceac361d
+      internalID: 266776656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_167
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 1261
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7307ab6a9a4321e43bb9133c52759808
+      internalID: -363749232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_168
+      rect:
+        serializedVersion: 2
+        x: 5476
+        y: 1264
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cbf4be429c4db44fa0568928d928d1f
+      internalID: 39146755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_169
+      rect:
+        serializedVersion: 2
+        x: 3235
+        y: 1241
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153dba1bee1ba6f4f9ae774deb7ef498
+      internalID: -371549034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_170
+      rect:
+        serializedVersion: 2
+        x: 6677
+        y: 1201
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984d98f102b46864b8b561d45ab70bdf
+      internalID: 1809974071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_171
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 1178
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b455d3b90aa49194b8a8dfa5acbd5b21
+      internalID: 1936403138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_172
+      rect:
+        serializedVersion: 2
+        x: 5479
+        y: 1182
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f6f874df555ee4686c19558e7b3f6d
+      internalID: 145524420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_173
+      rect:
+        serializedVersion: 2
+        x: 2264
+        y: 881
+        width: 33
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af4b24c85474614dbe1617e360e101b
+      internalID: -533440431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_174
+      rect:
+        serializedVersion: 2
+        x: 5803
+        y: 756
+        width: 46
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400e4a5e9430c2340889337760b49e09
+      internalID: 1902540547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_175
+      rect:
+        serializedVersion: 2
+        x: 5859
+        y: 1026
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61de5d533cd1b2e4abf888362ca6aa24
+      internalID: -974550683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_176
+      rect:
+        serializedVersion: 2
+        x: 3175
+        y: 970
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705c46d600f34214b9164f42b8d1f860
+      internalID: -187680321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_177
+      rect:
+        serializedVersion: 2
+        x: 3195
+        y: 974
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0eebfb6916d424c84bf7177d8b285d
+      internalID: -381013285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_178
+      rect:
+        serializedVersion: 2
+        x: 3189
+        y: 733
+        width: 42
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556f5ca62d998564db1291d6c9085a9a
+      internalID: -440196658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_179
+      rect:
+        serializedVersion: 2
+        x: 5898
+        y: 960
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943f5079ccbfb5545842a1233a4c305b
+      internalID: 375805315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_180
+      rect:
+        serializedVersion: 2
+        x: 5912
+        y: 954
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2a50bcc5570364d93ba820bbfdcae9
+      internalID: -2012273100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_181
+      rect:
+        serializedVersion: 2
+        x: 6618
+        y: 927
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa83a0476833584da65ccc62874bee5
+      internalID: -2130569710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_182
+      rect:
+        serializedVersion: 2
+        x: 2360
+        y: 950
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986c13d0e961c3e4a95d1de4014bc021
+      internalID: 2132510945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_183
+      rect:
+        serializedVersion: 2
+        x: 2373
+        y: 924
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44e2a34bd822e8408b9fffd342fd947
+      internalID: 480557916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_184
+      rect:
+        serializedVersion: 2
+        x: 2380
+        y: 927
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394089b507bc99d498e3618d1466d347
+      internalID: 1010682603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_185
+      rect:
+        serializedVersion: 2
+        x: 5908
+        y: 696
+        width: 47
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085880310f37fc2418e67359c0f13a1b
+      internalID: -1544969743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_186
+      rect:
+        serializedVersion: 2
+        x: 6638
+        y: 931
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f9f31e235917e40b6d4ba7e9a3dc1f
+      internalID: -331653581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_187
+      rect:
+        serializedVersion: 2
+        x: 2373
+        y: 914
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866cae1ad32c046448332ac3c891d660
+      internalID: -1195819651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_188
+      rect:
+        serializedVersion: 2
+        x: 6631
+        y: 917
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13da744fbb6ba664d91e50b9fb592b4b
+      internalID: -601805368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_189
+      rect:
+        serializedVersion: 2
+        x: 2264
+        y: 795
+        width: 37
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887537d84105fb14ca6b2fa7a3d2cf46
+      internalID: 1487361242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_190
+      rect:
+        serializedVersion: 2
+        x: 2373
+        y: 690
+        width: 43
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb53fa35aef114f40b6bcf25e1872962
+      internalID: 391487027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_191
+      rect:
+        serializedVersion: 2
+        x: 3109
+        y: 881
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9583f5ffcde524080e0767e8af6bf9
+      internalID: 874694662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_192
+      rect:
+        serializedVersion: 2
+        x: 3228
+        y: 881
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34fee0b329aa934897c4df501920089
+      internalID: -510492497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_193
+      rect:
+        serializedVersion: 2
+        x: 6631
+        y: 693
+        width: 43
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c17676f1c233c45be49b890241ceba
+      internalID: 619020165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_194
+      rect:
+        serializedVersion: 2
+        x: 5796
+        y: 858
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bbbeaab458fc2c4e8844b2e29d29cfc
+      internalID: 2138974449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_195
+      rect:
+        serializedVersion: 2
+        x: 2297
+        y: 835
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657e5bb4b1a62d749b903021630773b2
+      internalID: -2093080210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_196
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 848
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06fa990b3cc891e4b8632b91e2cf25a3
+      internalID: 1058168690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_197
+      rect:
+        serializedVersion: 2
+        x: 5955
+        y: 835
+        width: 6
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17dc698dee51056498954a7c61d61955
+      internalID: -1389406544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_198
+      rect:
+        serializedVersion: 2
+        x: 6552
+        y: 842
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e782ba59c92a55d47bfa5175db2c9ee1
+      internalID: 733859964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_199
+      rect:
+        serializedVersion: 2
+        x: 6671
+        y: 835
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60854abf7d8b42a49b6b2b609eede33d
+      internalID: 1098171429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_200
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 835
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db02012996563f41b2b23df993419fd
+      internalID: -183199834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_201
+      rect:
+        serializedVersion: 2
+        x: 4149
+        y: 822
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f14b10e9e0e1d543a724af79cab14c4
+      internalID: -1711283381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_202
+      rect:
+        serializedVersion: 2
+        x: 2684
+        y: 799
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb47ea4006e664f49b837a74b17b9d3b
+      internalID: 1376135706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_203
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 805
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594a7193e3b03c340bc821d04977e79e
+      internalID: 889475875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_204
+      rect:
+        serializedVersion: 2
+        x: 5387
+        y: 809
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a63414c030c944e9014cb3f25482cf
+      internalID: 634518068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_205
+      rect:
+        serializedVersion: 2
+        x: 6106
+        y: 756
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d57109b8d7c67b4dbc601b8c2961057
+      internalID: -1057379161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_206
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 802
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb8175b7a442d84193fec9b0cad3c73
+      internalID: -1128644110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_207
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 795
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5552757e2851364395a9fe15f227180
+      internalID: -1488503507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_208
+      rect:
+        serializedVersion: 2
+        x: 2281
+        y: 782
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6abb5295c5144448b8d83e4cd876e8d
+      internalID: -1662423794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_209
+      rect:
+        serializedVersion: 2
+        x: 3165
+        y: 785
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4daa78fd2bacef4abc53ffc11b2ea06
+      internalID: -1872734105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_210
+      rect:
+        serializedVersion: 2
+        x: 3235
+        y: 766
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043b2beaac3e031499fbd51207ab3bbb
+      internalID: 1922072111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_211
+      rect:
+        serializedVersion: 2
+        x: 3255
+        y: 785
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8fc026aaa55f546b0bd644a21e9682
+      internalID: 97349975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_212
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 772
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f10319119297424abd4db0f324f2edb
+      internalID: -1289397723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_213
+      rect:
+        serializedVersion: 2
+        x: 2281
+        y: 752
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d65ca6e223b3f64ba6e84ab7843e486
+      internalID: -1766503866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_214
+      rect:
+        serializedVersion: 2
+        x: 3129
+        y: 776
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe4b58286a59944ab1ac01f6d5fbcd1
+      internalID: -2017367680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_215
+      rect:
+        serializedVersion: 2
+        x: 5063
+        y: 772
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39991313a80df274880dac972ce5641c
+      internalID: -297685921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_216
+      rect:
+        serializedVersion: 2
+        x: 6163
+        y: 766
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f21ef1266bd36f439d27b1dce875b35
+      internalID: -1598862224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_217
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 756
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e140c9551babd04184b9ca856d3bf89
+      internalID: 605572648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_218
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 752
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fc46fd889d22149891d8773877a760
+      internalID: 1416773703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_219
+      rect:
+        serializedVersion: 2
+        x: 2261
+        y: 752
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7fdb13cd5841a74bab7bc400bfc40a6
+      internalID: 754357620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_220
+      rect:
+        serializedVersion: 2
+        x: 3156
+        y: 736
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c846ca3761755946a407b7f3965d62c
+      internalID: 1818460923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_221
+      rect:
+        serializedVersion: 2
+        x: 5410
+        y: 756
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0aae0fdc4c4a8c4da92dd8c8578e243
+      internalID: -1158106431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_222
+      rect:
+        serializedVersion: 2
+        x: 5799
+        y: 759
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee20eacb74306046b6799b69a97ed61
+      internalID: 1218820664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_223
+      rect:
+        serializedVersion: 2
+        x: 5869
+        y: 693
+        width: 46
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c7d2475bf4e4a48ba1390fae83de25
+      internalID: -1902990249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_224
+      rect:
+        serializedVersion: 2
+        x: 5974
+        y: 756
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3f83bf3da92af419bdc70040214248
+      internalID: 392468311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_225
+      rect:
+        serializedVersion: 2
+        x: 6691
+        y: 752
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f3a001c0952cd42ad2660e80cc7082
+      internalID: 1102822236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_226
+      rect:
+        serializedVersion: 2
+        x: 2436
+        y: 749
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30bd2f58586f1884a8a045d608527689
+      internalID: -1492342544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_227
+      rect:
+        serializedVersion: 2
+        x: 3116
+        y: 743
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6670f5e280abe3547b3c1d0ea8fac9d0
+      internalID: 1777806223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_228
+      rect:
+        serializedVersion: 2
+        x: 5819
+        y: 703
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46afc6cda3447cb46bed624f1deec996
+      internalID: 1019100081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_229
+      rect:
+        serializedVersion: 2
+        x: 5951
+        y: 723
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87529f82995e2f948b39cd93647a6565
+      internalID: -688646409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_230
+      rect:
+        serializedVersion: 2
+        x: 5978
+        y: 743
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425fa85f344a0ce48b8f26a76cc69e8a
+      internalID: -1947359951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_231
+      rect:
+        serializedVersion: 2
+        x: 2419
+        y: 726
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4addd5a315c1a428872b3efe36c8fa
+      internalID: -309404138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_232
+      rect:
+        serializedVersion: 2
+        x: 2439
+        y: 739
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc5b18167e33284baa8d141a4d56527
+      internalID: 1935279578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_233
+      rect:
+        serializedVersion: 2
+        x: 6605
+        y: 693
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669e38f284908ea47923f210ab2b0c86
+      internalID: -1477399969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_234
+      rect:
+        serializedVersion: 2
+        x: 6677
+        y: 723
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09094a31c8201242a727f440ebf1895
+      internalID: 1006414116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_235
+      rect:
+        serializedVersion: 2
+        x: 6697
+        y: 743
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55946e5c6cf4bd545a20917eb5a4932f
+      internalID: 1168055277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_236
+      rect:
+        serializedVersion: 2
+        x: 2353
+        y: 739
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2822fc59bde4aab498a8d356f3b820db
+      internalID: 1816432459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_237
+      rect:
+        serializedVersion: 2
+        x: 5799
+        y: 719
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10242b28963ea964b9a829901667766c
+      internalID: -1109501918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_238
+      rect:
+        serializedVersion: 2
+        x: 5856
+        y: 729
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e56ef7e6b06bf4d81104e6390a1ca8
+      internalID: -640913528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_239
+      rect:
+        serializedVersion: 2
+        x: 2261
+        y: 716
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8487592bd5726b14f8e29daa7765ae9a
+      internalID: -473816559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_240
+      rect:
+        serializedVersion: 2
+        x: 2281
+        y: 700
+        width: 46
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58055e41e38e24941aacdd7afb3cb3b0
+      internalID: 605676693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_241
+      rect:
+        serializedVersion: 2
+        x: 6598
+        y: 729
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e06df6a61c9904dbc3f05415f736f0
+      internalID: 1055355323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_242
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 723
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786358094cd054c45a63675a456ba6fa
+      internalID: -1034455062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_243
+      rect:
+        serializedVersion: 2
+        x: 5347
+        y: 710
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d2ef6d8fdf3764eb288731b47a6d76
+      internalID: 30092978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_244
+      rect:
+        serializedVersion: 2
+        x: 5360
+        y: 710
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e215872e1bbcbba43ad198ca9f4c0218
+      internalID: 1278798657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_245
+      rect:
+        serializedVersion: 2
+        x: 5859
+        y: 703
+        width: 6
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0557d04bd88c249890527a2ad06c46
+      internalID: 2090608044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_246
+      rect:
+        serializedVersion: 2
+        x: 2344
+        y: 690
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d7be7272997764fa67e7d928fd7cea
+      internalID: 537699509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_247
+      rect:
+        serializedVersion: 2
+        x: 2429
+        y: 719
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c828f14a199fbc4ab8b5fd329b9d072
+      internalID: 553477402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_248
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 700
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a729c8d47b75ad443b85d5bc49b4e035
+      internalID: 896020190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_249
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 700
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168e96c72b7b4c142bbbdcea21168105
+      internalID: 1818445439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_250
+      rect:
+        serializedVersion: 2
+        x: 5370
+        y: 696
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427f3a2ea557e714f83ad1adc9998c8a
+      internalID: -718517383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_251
+      rect:
+        serializedVersion: 2
+        x: 5384
+        y: 700
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79809bb02fe4b4949a2bfd936171ef7d
+      internalID: 376827178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_252
+      rect:
+        serializedVersion: 2
+        x: 5806
+        y: 703
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d025f310f254c564e99b11271f54f919
+      internalID: -466732447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_253
+      rect:
+        serializedVersion: 2
+        x: 6559
+        y: 703
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1336b4683ba16da4ba98c37ff6edf9df
+      internalID: 1186986838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_254
+      rect:
+        serializedVersion: 2
+        x: 5334
+        y: 680
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6599c25cfe7fa914aa328aa698e16c3a
+      internalID: 1197222882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_255
+      rect:
+        serializedVersion: 2
+        x: 5918
+        y: 693
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c5c74f7247e7042b9aafa20856994d
+      internalID: 1630976212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_256
+      rect:
+        serializedVersion: 2
+        x: 5360
+        y: 670
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c64cbe0beda7034a95ce6573e9706e2
+      internalID: -790592689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_257
+      rect:
+        serializedVersion: 2
+        x: 5377
+        y: 677
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4800a9a137e95499f09968d68d3d42
+      internalID: -2047585084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_258
+      rect:
+        serializedVersion: 2
+        x: 5344
+        y: 657
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d053179c10221a4d888caf4762a8b70
+      internalID: -1876970161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_259
+      rect:
+        serializedVersion: 2
+        x: 5294
+        y: 637
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16ccef13681d8d43aec94560665e4aa
+      internalID: 1038420736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_260
+      rect:
+        serializedVersion: 2
+        x: 5314
+        y: 620
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f0ee15ed064e24a939265c471eb2ce
+      internalID: 300902316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_261
+      rect:
+        serializedVersion: 2
+        x: 5351
+        y: 594
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed10ac74b0ea5147a1bb9c2f6b499cb
+      internalID: 2004417719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_262
+      rect:
+        serializedVersion: 2
+        x: 5327
+        y: 578
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da69e0c8febfafd43b39fb13862daeb8
+      internalID: 786410961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_263
+      rect:
+        serializedVersion: 2
+        x: 5344
+        y: 561
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e6006e3381d274cb1c55f9f0d1da48
+      internalID: 1258481854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_264
+      rect:
+        serializedVersion: 2
+        x: 2264
+        y: 548
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606980c1cfe778e459e13e2287efd1ec
+      internalID: 1563996139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_265
+      rect:
+        serializedVersion: 2
+        x: 2297
+        y: 538
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530c50be16bc4064894dc5bb73961a25
+      internalID: -2039330081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_266
+      rect:
+        serializedVersion: 2
+        x: 2740
+        y: 548
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d9e9c1eb05bcc4583b694dd9480134
+      internalID: -1763968052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_267
+      rect:
+        serializedVersion: 2
+        x: 3123
+        y: 521
+        width: 6
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c4299977b09c5547a4509e41c5d2087
+      internalID: 138688216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_268
+      rect:
+        serializedVersion: 2
+        x: 5479
+        y: 541
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6490d621717a47a4c9d0adeac770c567
+      internalID: 1694681593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_269
+      rect:
+        serializedVersion: 2
+        x: 5803
+        y: 548
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff88ecaae81c8ba42bcd19f758aea005
+      internalID: 1660586218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_270
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 535
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9738a4c1dda16f84fbef5cadadf96df3
+      internalID: -208002783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_271
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 505
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d0973dc60e14a46963f795ce0a9635
+      internalID: -1260206663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_272
+      rect:
+        serializedVersion: 2
+        x: 2264
+        y: 498
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2305aca6121c26146ad236ef8c069f9e
+      internalID: -1999524675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_273
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 475
+        width: 10
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b5e050b46c5734db1c13f995d91da6
+      internalID: 1852425409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_274
+      rect:
+        serializedVersion: 2
+        x: 5466
+        y: 508
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c73c27669c4ef64f8a85baeb96d9214
+      internalID: -2020331476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_275
+      rect:
+        serializedVersion: 2
+        x: 6182
+        y: 508
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d68b3ce816e1e342bd90bec9c0cfd94
+      internalID: 913380753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_276
+      rect:
+        serializedVersion: 2
+        x: 3113
+        y: 495
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d0d3d121cf133409522f88795c9ee1
+      internalID: 2023115300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_277
+      rect:
+        serializedVersion: 2
+        x: 3165
+        y: 485
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674ea1563539fc841aa4adbdaab27d28
+      internalID: -985649822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_278
+      rect:
+        serializedVersion: 2
+        x: 5836
+        y: 482
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ba3ce1833c8a94e996ebf257101775
+      internalID: 276031448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_279
+      rect:
+        serializedVersion: 2
+        x: 2842
+        y: 452
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54baf5cfca1a39f4c992f2928f0ff4d8
+      internalID: 1524855977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_280
+      rect:
+        serializedVersion: 2
+        x: 3106
+        y: 462
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d7fd8bbcec09a4398f01364b43e8c5
+      internalID: 378525996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_281
+      rect:
+        serializedVersion: 2
+        x: 3172
+        y: 459
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3b8d2feb2e9f84da2bb7c239cb8b82
+      internalID: 407614579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_282
+      rect:
+        serializedVersion: 2
+        x: 3195
+        y: 449
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d60c4c051b2e414eb66242cf9217e41
+      internalID: -1425175193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_283
+      rect:
+        serializedVersion: 2
+        x: 2895
+        y: 449
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ff194f7aec1724a8b6efd7452e6852
+      internalID: -1794716773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_284
+      rect:
+        serializedVersion: 2
+        x: 3096
+        y: 449
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed918c3a02baec48a6abe8c8fec2a0d
+      internalID: 1635725108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_285
+      rect:
+        serializedVersion: 2
+        x: 3113
+        y: 446
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ecaa8e7cdcdaf4483308830864ec72
+      internalID: -329575328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_286
+      rect:
+        serializedVersion: 2
+        x: 3172
+        y: 442
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42bf084788050064a836076ba60e3213
+      internalID: 493858180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_287
+      rect:
+        serializedVersion: 2
+        x: 6555
+        y: 452
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f830314422bf3664093d172bdb313259
+      internalID: 257539684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_288
+      rect:
+        serializedVersion: 2
+        x: 6608
+        y: 442
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1152327a3c0765348a600e3c0baca102
+      internalID: -691081882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_289
+      rect:
+        serializedVersion: 2
+        x: 2294
+        y: 426
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d7b70f016c7494eafdd748eae00593
+      internalID: 1582634441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_290
+      rect:
+        serializedVersion: 2
+        x: 6285
+        y: 409
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7106f2efdcb138742bbc6a324514b59a
+      internalID: -363025480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_291
+      rect:
+        serializedVersion: 2
+        x: 6549
+        y: 419
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437a54b21914bdb4bb674ccd803e388e
+      internalID: 74052362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_292
+      rect:
+        serializedVersion: 2
+        x: 6638
+        y: 406
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505bfc47bc72c25438046afb40ba604d
+      internalID: -1247817591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_293
+      rect:
+        serializedVersion: 2
+        x: 6539
+        y: 409
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2672c3fa425e8c46927d9a009d5d22f
+      internalID: 1174637090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_294
+      rect:
+        serializedVersion: 2
+        x: 6615
+        y: 416
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e72b9b29fd797049b87d1b7e14c2afe
+      internalID: -728009704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_295
+      rect:
+        serializedVersion: 2
+        x: 6338
+        y: 406
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5916487e9c273459f28bcc0f23a2f2
+      internalID: 358169953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_296
+      rect:
+        serializedVersion: 2
+        x: 6555
+        y: 406
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993c12c8ea127764b9c8544ed404964d
+      internalID: -1485416663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RidleyWalk_297
+      rect:
+        serializedVersion: 2
+        x: 6615
+        y: 403
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883ec96db55210948832090b305067f5
+      internalID: 1232801552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      RidleyWalk_56: 811754782
+      RidleyWalk_210: 1922072111
+      RidleyWalk_233: -1477399969
+      RidleyWalk_223: -1902990249
+      RidleyWalk_30: 1706503572
+      RidleyWalk_138: -1770296604
+      RidleyWalk_120: 1349148907
+      RidleyWalk_19: 1620053289
+      RidleyWalk_80: 53807909
+      RidleyWalk_257: -2047585084
+      RidleyWalk_201: -1711283381
+      RidleyWalk_275: 913380753
+      RidleyWalk_276: 2023115300
+      RidleyWalk_123: -761706056
+      RidleyWalk_66: -1054123173
+      RidleyWalk_32: -9650217
+      RidleyWalk_136: -267685795
+      RidleyWalk_214: -2017367680
+      RidleyWalk_176: -187680321
+      RidleyWalk_237: -1109501918
+      RidleyWalk_266: -1763968052
+      RidleyWalk_46: 1930252136
+      RidleyWalk_20: -461810382
+      RidleyWalk_226: -1492342544
+      RidleyWalk_256: -790592689
+      RidleyWalk_249: 1818445439
+      RidleyWalk_86: -1723175439
+      RidleyWalk_134: -1286051798
+      RidleyWalk_279: 1524855977
+      RidleyWalk_188: -601805368
+      RidleyWalk_191: 874694662
+      RidleyWalk_284: 1635725108
+      RidleyWalk_169: -371549034
+      RidleyWalk_207: -1488503507
+      RidleyWalk_295: 358169953
+      RidleyWalk_242: -1034455062
+      RidleyWalk_68: -1962699000
+      RidleyWalk_173: -533440431
+      RidleyWalk_211: 97349975
+      RidleyWalk_164: -178597434
+      RidleyWalk_204: 634518068
+      RidleyWalk_163: -1782176643
+      RidleyWalk_235: 1168055277
+      RidleyWalk_290: -363025480
+      RidleyWalk_151: 1895233348
+      RidleyWalk_85: 1508278886
+      RidleyWalk_109: -662801076
+      RidleyWalk_153: -1177267060
+      RidleyWalk_292: -1247817591
+      RidleyWalk_170: 1809974071
+      RidleyWalk_83: 1414524912
+      RidleyWalk_286: 493858180
+      RidleyWalk_159: 2105975415
+      RidleyWalk_111: 1255470677
+      RidleyWalk_53: 1748104025
+      RidleyWalk_144: 1057753984
+      RidleyWalk_99: 622328712
+      RidleyWalk_255: 1630976212
+      RidleyWalk_57: 1585376112
+      RidleyWalk_265: -2039330081
+      RidleyWalk_267: 138688216
+      RidleyWalk_231: -309404138
+      RidleyWalk_8: 1098908922
+      RidleyWalk_54: -1128128580
+      RidleyWalk_52: -457379192
+      RidleyWalk_135: -1304250851
+      RidleyWalk_263: 1258481854
+      RidleyWalk_262: 786410961
+      RidleyWalk_287: 257539684
+      RidleyWalk_203: 889475875
+      RidleyWalk_18: 1659988169
+      RidleyWalk_102: 2099472717
+      RidleyWalk_131: -954958198
+      RidleyWalk_219: 754357620
+      RidleyWalk_229: -688646409
+      RidleyWalk_177: -381013285
+      RidleyWalk_282: -1425175193
+      RidleyWalk_117: 1889292865
+      RidleyWalk_252: -466732447
+      RidleyWalk_222: 1218820664
+      RidleyWalk_17: -1175848736
+      RidleyWalk_36: 1916264290
+      RidleyWalk_259: 1038420736
+      RidleyWalk_283: -1794716773
+      RidleyWalk_82: -511765438
+      RidleyWalk_168: 39146755
+      RidleyWalk_291: 74052362
+      RidleyWalk_79: -1488397991
+      RidleyWalk_91: 490637311
+      RidleyWalk_108: -1927462198
+      RidleyWalk_157: 729447667
+      RidleyWalk_161: -139348066
+      RidleyWalk_130: -268468024
+      RidleyWalk_162: -823643103
+      RidleyWalk_137: -1294545256
+      RidleyWalk_260: 300902316
+      RidleyWalk_90: -1182041722
+      RidleyWalk_277: -985649822
+      RidleyWalk_128: 1893187076
+      RidleyWalk_3: -1856574536
+      RidleyWalk_55: -28671637
+      RidleyWalk_166: 266776656
+      RidleyWalk_14: -742988966
+      RidleyWalk_113: 477472732
+      RidleyWalk_212: -1289397723
+      RidleyWalk_182: 2132510945
+      RidleyWalk_281: 407614579
+      RidleyWalk_39: -1665489068
+      RidleyWalk_133: 209776877
+      RidleyWalk_280: 378525996
+      RidleyWalk_296: -1485416663
+      RidleyWalk_126: 2090206360
+      RidleyWalk_24: 1780666916
+      RidleyWalk_121: 2055865010
+      RidleyWalk_96: -62167312
+      RidleyWalk_27: 290727473
+      RidleyWalk_40: 1413162669
+      RidleyWalk_152: -56704569
+      RidleyWalk_70: 430135482
+      RidleyWalk_29: 35198412
+      RidleyWalk_194: 2138974449
+      RidleyWalk_23: 796228627
+      RidleyWalk_42: 569184987
+      RidleyWalk_72: -883688313
+      RidleyWalk_192: -510492497
+      RidleyWalk_11: 1181309066
+      RidleyWalk_148: -1145067085
+      RidleyWalk_239: -473816559
+      RidleyWalk_41: 1440706248
+      RidleyWalk_154: -158986466
+      RidleyWalk_243: 30092978
+      RidleyWalk_15: 2107008123
+      RidleyWalk_251: 376827178
+      RidleyWalk_246: 537699509
+      RidleyWalk_26: 790262533
+      RidleyWalk_59: -1141979942
+      RidleyWalk_84: -1765735501
+      RidleyWalk_124: 1854393798
+      RidleyWalk_51: 2112117065
+      RidleyWalk_278: 276031448
+      RidleyWalk_16: -1253194739
+      RidleyWalk_101: 756981626
+      RidleyWalk_105: 1708501162
+      RidleyWalk_116: -427389915
+      RidleyWalk_155: -1525445721
+      RidleyWalk_125: 565507189
+      RidleyWalk_253: 1186986838
+      RidleyWalk_245: 2090608044
+      RidleyWalk_5: 1285885874
+      RidleyWalk_141: -21888273
+      RidleyWalk_220: 1818460923
+      RidleyWalk_58: 1208045874
+      RidleyWalk_0: -1363189287
+      RidleyWalk_34: 1602632471
+      RidleyWalk_250: -718517383
+      RidleyWalk_200: -183199834
+      RidleyWalk_75: -165535292
+      RidleyWalk_92: -943506980
+      RidleyWalk_77: 1750035633
+      RidleyWalk_114: 197040511
+      RidleyWalk_149: 917807908
+      RidleyWalk_238: -640913528
+      RidleyWalk_285: -329575328
+      RidleyWalk_122: -1637227062
+      RidleyWalk_180: -2012273100
+      RidleyWalk_270: -208002783
+      RidleyWalk_93: -822124801
+      RidleyWalk_62: 1868607058
+      RidleyWalk_174: 1902540547
+      RidleyWalk_65: 1344844701
+      RidleyWalk_198: 733859964
+      RidleyWalk_264: 1563996139
+      RidleyWalk_205: -1057379161
+      RidleyWalk_9: -1186381696
+      RidleyWalk_258: -1876970161
+      RidleyWalk_81: -393082198
+      RidleyWalk_88: -957366981
+      RidleyWalk_288: -691081882
+      RidleyWalk_213: -1766503866
+      RidleyWalk_78: 1377348720
+      RidleyWalk_187: -1195819651
+      RidleyWalk_240: 605676693
+      RidleyWalk_2: -759000739
+      RidleyWalk_89: -1873344166
+      RidleyWalk_261: 2004417719
+      RidleyWalk_228: 1019100081
+      RidleyWalk_156: 633407828
+      RidleyWalk_178: -440196658
+      RidleyWalk_61: -393368587
+      RidleyWalk_67: 1721713276
+      RidleyWalk_110: -1771134640
+      RidleyWalk_274: -2020331476
+      RidleyWalk_171: 1936403138
+      RidleyWalk_47: 2002333618
+      RidleyWalk_13: -1211091916
+      RidleyWalk_143: -1692558200
+      RidleyWalk_230: -1947359951
+      RidleyWalk_103: 994333081
+      RidleyWalk_254: 1197222882
+      RidleyWalk_165: 1603141808
+      RidleyWalk_50: -1218264828
+      RidleyWalk_87: 1499252350
+      RidleyWalk_241: 1055355323
+      RidleyWalk_269: 1660586218
+      RidleyWalk_268: 1694681593
+      RidleyWalk_294: -728009704
+      RidleyWalk_115: -1673111028
+      RidleyWalk_215: -297685921
+      RidleyWalk_297: 1232801552
+      RidleyWalk_7: 1694712859
+      RidleyWalk_127: 1443897168
+      RidleyWalk_145: 1862260093
+      RidleyWalk_44: -321900815
+      RidleyWalk_38: -1489806776
+      RidleyWalk_147: 2058695811
+      RidleyWalk_293: 1174637090
+      RidleyWalk_25: -498989755
+      RidleyWalk_107: -429471535
+      RidleyWalk_196: 1058168690
+      RidleyWalk_118: 1424983612
+      RidleyWalk_104: 1807467375
+      RidleyWalk_185: -1544969743
+      RidleyWalk_33: 2142674570
+      RidleyWalk_150: -1305662235
+      RidleyWalk_197: -1389406544
+      RidleyWalk_73: -1360880893
+      RidleyWalk_106: -1256841062
+      RidleyWalk_1: 38677388
+      RidleyWalk_186: -331653581
+      RidleyWalk_60: 181002191
+      RidleyWalk_74: -1601888372
+      RidleyWalk_37: -713598682
+      RidleyWalk_189: 1487361242
+      RidleyWalk_45: -27514389
+      RidleyWalk_139: 578462254
+      RidleyWalk_49: -1051997752
+      RidleyWalk_64: -1257664557
+      RidleyWalk_172: 145524420
+      RidleyWalk_199: 1098171429
+      RidleyWalk_208: -1662423794
+      RidleyWalk_100: 745989701
+      RidleyWalk_217: 605572648
+      RidleyWalk_193: 619020165
+      RidleyWalk_272: -1999524675
+      RidleyWalk_21: 869242522
+      RidleyWalk_225: 1102822236
+      RidleyWalk_175: -974550683
+      RidleyWalk_132: 671342733
+      RidleyWalk_273: 1852425409
+      RidleyWalk_22: 1171304521
+      RidleyWalk_221: -1158106431
+      RidleyWalk_76: 1327298269
+      RidleyWalk_179: 375805315
+      RidleyWalk_248: 896020190
+      RidleyWalk_232: 1935279578
+      RidleyWalk_6: 1279973723
+      RidleyWalk_94: 779659619
+      RidleyWalk_181: -2130569710
+      RidleyWalk_63: -1735193403
+      RidleyWalk_12: -2076510191
+      RidleyWalk_234: 1006414116
+      RidleyWalk_184: 1010682603
+      RidleyWalk_227: 1777806223
+      RidleyWalk_4: 1171795656
+      RidleyWalk_35: -758036864
+      RidleyWalk_190: 391487027
+      RidleyWalk_71: 1110948446
+      RidleyWalk_10: -657314971
+      RidleyWalk_31: -1364979851
+      RidleyWalk_247: 553477402
+      RidleyWalk_206: -1128644110
+      RidleyWalk_69: 729918585
+      RidleyWalk_98: -1649747817
+      RidleyWalk_142: -1778615923
+      RidleyWalk_95: 1627334771
+      RidleyWalk_167: -363749232
+      RidleyWalk_236: 1816432459
+      RidleyWalk_202: 1376135706
+      RidleyWalk_183: 480557916
+      RidleyWalk_244: 1278798657
+      RidleyWalk_43: 1600283106
+      RidleyWalk_129: -1213156028
+      RidleyWalk_140: 1769877054
+      RidleyWalk_112: 888505720
+      RidleyWalk_209: -1872734105
+      RidleyWalk_158: -808842371
+      RidleyWalk_289: 1582634441
+      RidleyWalk_119: -175272217
+      RidleyWalk_195: -2093080210
+      RidleyWalk_224: 392468311
+      RidleyWalk_97: -469612998
+      RidleyWalk_48: 516025041
+      RidleyWalk_216: -1598862224
+      RidleyWalk_271: -1260206663
+      RidleyWalk_146: -71029482
+      RidleyWalk_160: -1679070637
+      RidleyWalk_28: 239742617
+      RidleyWalk_218: 1416773703
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
