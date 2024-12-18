@@ -13,7 +13,7 @@ public class PhysMovement : MonoBehaviour
     public float speed = 10;
 
     // vectors for animators
-    public bool fWalk = false;
+    public bool dWalk = false;
     public bool uWalk = false;
     public bool lWalk = false;
     public bool rWalk = false;
@@ -38,7 +38,7 @@ public class PhysMovement : MonoBehaviour
     void Update()  // Update is called once per frame
     {
         animator.SetBool("walk", walk);
-        animator.SetBool("walk forward", fWalk);
+        animator.SetBool("walk forward", dWalk);
         animator.SetBool("walk up", uWalk);
         animator.SetBool("walk left", lWalk);
         animator.SetBool("walk right", rWalk);
@@ -55,7 +55,7 @@ public class PhysMovement : MonoBehaviour
             lWalk = true;
             rWalk = false;
             uWalk = false;
-            fWalk = false;
+            dWalk = false;
            _rb2d.velocity = Vector2.left * speed;
             if (flipAsset == true)
             {
@@ -68,7 +68,7 @@ public class PhysMovement : MonoBehaviour
             rWalk = true;
             lWalk = false;
             uWalk = false;
-            fWalk = false;
+            dWalk = false;
             if (flipAsset == true)
             {
                 SpriteRenderer.flipX = false;
@@ -81,14 +81,14 @@ public class PhysMovement : MonoBehaviour
             uWalk = true;
             lWalk = false;
             rWalk = false;
-            fWalk = false;
+            dWalk = false;
             _rb2d.velocity = Vector2.up * speed;
 
         }
         else if (Input.GetKey(down))
         {
             walk = true;
-            fWalk = true;
+            dWalk = true;
             uWalk = false;
             rWalk = false;
             lWalk = false;
@@ -97,20 +97,21 @@ public class PhysMovement : MonoBehaviour
         else
         {
             walk = false;
-            fWalk = false;
+            dWalk = false;
             uWalk = false;
             rWalk = false;
             lWalk = false;
         }
-    }
+    }                                         
+
 }
 
 // THIS PROGRAM IS PROPERTY OF
-//      ________   ___    __   _______   _____   ___    __   ________
-//     //      /   //|    /   //          //     //|    /   //       
-//    //======/   // |   /   //_____     //     // |   /   //__      
-//   //      /   //  |  /          /    //     //  |  /   //         
-//  //      /   //   | /          /    //     //   | /   //          
-// //      /  _//_  _|/_   ______/  __//__  _//_  _|/_  //______ TM
+//      __________  ___    __   _______   _____   ___    __  _________
+//      //      /   //|    /   //          //     //|    /   //       
+//     //======/   // |   /   //_____     //     // |   /   //__      
+//    //      /   //  |  /          /    //     //  |  /   //         
+//   //      /   //   | /          /    //     //   | /   //          
+// _//_    _/_ _//_  _|/_  _______/  __//__  _//_  _|/_ _//______ TM
 //
 // ANSINE CORP.TM COPYRIGHT 1998 - 2024
