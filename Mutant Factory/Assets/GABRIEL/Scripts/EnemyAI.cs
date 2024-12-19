@@ -16,8 +16,8 @@ public class EnemyAI : MonoBehaviour
         Vector3 calcTarget = Vector3.Lerp(transform.position, target, (moveSpeed + Time.deltaTime)/1000);
         transform.position = calcTarget;
     }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
+    //private void OnTriggerEnter2D(Collider2D collision)
+    //{
         
-    }
+    //}
 }
