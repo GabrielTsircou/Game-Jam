@@ -1,0 +1,445 @@
+fileFormatVersion: 2
+guid: c13c68701d182114eadf6c05fe09eb7f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: grave assets (splice these)_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 2556
+        width: 363
+        height: 409
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0bacb47b4c09af4e9d8f355eed6e751
+      internalID: 637411445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grave assets (splice these)_1
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 2552
+        width: 364
+        height: 411
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536d933c892b7e347a7330e2ce547bd3
+      internalID: 1462598374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grave assets (splice these)_3
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 2552
+        width: 336
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e0c46acaba2824499d48383c9b9174
+      internalID: -1183402158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grave assets (splice these)_4
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 2552
+        width: 336
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0876afc9f148c479865205c660fff1
+      internalID: -1687892959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grave assets (splice these)_6
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 2552
+        width: 353
+        height: 411
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389ff36616741964d8b79277379b59e5
+      internalID: -571516460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grave assets (splice these)_7
+      rect:
+        serializedVersion: 2
+        x: 2257
+        y: 2552
+        width: 364
+        height: 413
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d30013252d05cf44b5de785f1608f84
+      internalID: 52420251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grave assets (splice these)_18
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1993
+        width: 387
+        height: 491
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c98d1eb4b17cbd4689262ec6c417d4e
+      internalID: -1180400990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grave assets (splice these)_20
+      rect:
+        serializedVersion: 2
+        x: 2246
+        y: 1993
+        width: 389
+        height: 491
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318044f7151731e42bd2f4020ec00656
+      internalID: 1633429836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grave assets (splice these)_23
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 2000
+        width: 384
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3bfc2302f58d9542873dec5523d61f5
+      internalID: -1721242433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grave assets (splice these)_27
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 1980
+        width: 381
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac36e1e4e6b69194ba3ca893818a83ed
+      internalID: -2137165261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grave assets (splice these)_28
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 1980
+        width: 382
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1b6d626ee9ca849a99ca2881a106c2
+      internalID: -1982124017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grave assets (splice these)_30
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 1996
+        width: 385
+        height: 470
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50eb6f3ce9cd10843b84cc6289a3536e
+      internalID: 1420569080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 99924c7260bfe094c8b66c7941d70049
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      grave assets (splice these)_3: -1183402158
+      grave assets (splice these)_42: 1938212870
+      grave assets (splice these)_22: -1553758125
+      grave assets (splice these)_21: 1779527576
+      grave assets (splice these)_39: 1424529277
+      grave assets (splice these)_38: -866217895
+      grave assets (splice these)_32: -1119237425
+      grave assets (splice these)_18: -1180400990
+      grave assets (splice these)_30: 1420569080
+      grave assets (splice these)_25: 36833592
+      grave assets (splice these)_31: -1535898058
+      grave assets (splice these)_41: 419649465
+      grave assets (splice these)_35: 1578529056
+      grave assets (splice these)_44: 588052300
+      grave assets (splice these)_17: 1388848965
+      grave assets (splice these)_16: -1195109780
+      grave assets (splice these)_12: -406201008
+      grave assets (splice these)_4: -1687892959
+      grave assets (splice these)_15: -299608091
+      grave assets (splice these)_1: 1462598374
+      grave assets (splice these)_43: -2014155201
+      grave assets (splice these)_5: 453328156
+      grave assets (splice these)_7: 52420251
+      grave assets (splice these)_36: -1474408422
+      grave assets (splice these)_0: 637411445
+      grave assets (splice these)_37: 1975879919
+      grave assets (splice these)_9: -1202409563
+      grave assets (splice these)_34: 1948166061
+      grave assets (splice these)_33: 2143172495
+      grave assets (splice these)_24: -1929841780
+      grave assets (splice these)_27: -2137165261
+      grave assets (splice these)_40: 1940839260
+      grave assets (splice these)_2: -1502800175
+      grave assets (splice these)_20: 1633429836
+      grave assets (splice these)_6: -571516460
+      grave assets (splice these)_26: 1335150970
+      grave assets (splice these)_14: -730702674
+      grave assets (splice these)_28: -1982124017
+      grave assets (splice these)_13: 1760749509
+      grave assets (splice these)_11: -370627922
+      grave assets (splice these)_23: -1721242433
+      grave assets (splice these)_19: 1404913172
+      grave assets (splice these)_10: -1753923735
+      grave assets (splice these)_29: -1551617765
+      grave assets (splice these)_8: -1103645640
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
