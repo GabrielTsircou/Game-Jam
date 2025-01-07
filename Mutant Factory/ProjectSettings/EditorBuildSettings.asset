@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/DELSIN/Scenes/Menu.unity
     guid: 4c20d2ba364ff2f46aaeb77384d77fc0
+  - enabled: 1
+    path: Assets/DELSIN/Scenes/SpawnTrue.unity
+    guid: 0bb71686c6b1ec6488b66dd71b508511
   m_configObjects: {}
