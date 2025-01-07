@@ -3,22 +3,28 @@ using UnityEngine.UI;
 
 public class Inventory : MonoBehaviour
 {
+    [Header("Inventory Settings")]
+
     [SerializeField] private int _inventorySize;
+    [SerializeField] private bool _openByDefault;
     [SerializeField] private KeyCode _toggleInventoryButton;
+    [SerializeField] private GameObject _slotPrefab;
+    [SerializeField] private Sprite _defaultEmptySlot;
+
+    [Header("Pick Up/Drop Settings")]
 
     [SerializeField] private LayerMask _itemLayer;
     [SerializeField] private KeyCode _pickupButton;
     [SerializeField] private KeyCode _dropButton;
     [SerializeField] private float _pickupRadius;
+    [SerializeField] private bool _autoSwitchSlotOnGrab;
+
+    [Header("Use Settings")]
 
     [SerializeField] private KeyCode _useButton;
 
-    [SerializeField] private Transform _slotParent;
-    [SerializeField] private GameObject _slotPrefab;
-    [SerializeField] private Sprite _defaultEmptySlot;
-
-    [SerializeField] private GameObject _pickupPrompt;
-    [SerializeField] private bool _autoSwitchSlotOnGrab;
+    private LayoutGroup _slotParent;
+    private TMPro.TMP_Text _pickupPrompt;
 
     private GameObject _player;
     
@@ -35,10 +41,13 @@ public class Inventory : MonoBehaviour
         _inventory = new Item[_inventorySize];
         _slots = new Image[_inventorySize];
 
+        _slotParent = transform.GetComponentInChildren<LayoutGroup>();
+        _pickupPrompt = transform.GetComponentInChildren<TMPro.TMP_Text>();
+
         for (int i = 0; i < _inventorySize; ++i)
         {
             GameObject newSlot = Instantiate(_slotPrefab);
-            newSlot.transform.SetParent(_slotParent);
+            newSlot.transform.SetParent(_slotParent.transform);
             newSlot.name = $"Slot {i + 1}";
 
             _slots[i] = newSlot.GetComponent<Image>();
@@ -46,6 +55,11 @@ public class Inventory : MonoBehaviour
             if (i > 0)
                 _slots[i].transform.GetChild(0).gameObject.SetActive(false);
         }
+    }
+
+    private void Start()
+    {
+        _slotParent.transform.parent.gameObject.SetActive(_openByDefault);
     }
 
     private void Update()
@@ -67,7 +81,7 @@ public class Inventory : MonoBehaviour
         }
 
         var hit = Physics2D.CircleCast(_player.transform.position, _pickupRadius, Vector2.zero, 0, _itemLayer);
-        _pickupPrompt.SetActive(hit);
+        _pickupPrompt.gameObject.SetActive(hit && (!CurrentItem || hit.collider.gameObject != CurrentItem.gameObject));
 
         if (Input.GetKeyDown(_toggleInventoryButton))
         {
@@ -155,9 +169,7 @@ public class Inventory : MonoBehaviour
         for (int i = 0; i < _inventory.Length; ++i)
         {
             if (_inventory[i] != null)
-            {
                 return PopItemFromSlot(i);
-            }
         }
 
         return null;
@@ -181,9 +193,7 @@ public class Inventory : MonoBehaviour
         for (int i = 0; i < _inventory.Length; ++i)
         {
             if (_inventory[i] != null)
-            {
                 return GetItemFromSlot(i);
-            }
         }
 
         return null;

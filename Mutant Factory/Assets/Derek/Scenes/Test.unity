@@ -984,18 +984,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _inventorySize: 4
+  _openByDefault: 1
   _toggleInventoryButton: 105
+  _slotPrefab: {fileID: 1052574927916470030, guid: 3639de9eb5f79094dac4492236128a15, type: 3}
+  _defaultEmptySlot: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
   _itemLayer:
     serializedVersion: 2
     m_Bits: 512
   _pickupButton: 101
   _dropButton: 111
   _pickupRadius: 3
+  _autoSwitchSlotOnGrab: 0
   _useButton: 101
-  _slotParent: {fileID: 483722901}
-  _slotPrefab: {fileID: 1052574927916470030, guid: 3639de9eb5f79094dac4492236128a15, type: 3}
-  _defaultEmptySlot: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  _pickupPrompt: {fileID: 1169025570}
 --- !u!1 &1770761108
 GameObject:
   m_ObjectHideFlags: 0
@@ -1364,10 +1364,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8181902848180520400, guid: 6d37bec1ef0aa554687394f284daa155, type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d37bec1ef0aa554687394f284daa155, type: 3}
@@ -1423,10 +1419,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2780877220937612278, guid: e7dd0513ef4bdc246a06c2cca203ad5b, type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3085136469663403065, guid: e7dd0513ef4bdc246a06c2cca203ad5b, type: 3}
       propertyPath: m_Name
       value: Flashlight
@@ -1450,10 +1442,6 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3325622916383824334, guid: d0330b600b7844f4fa121b7ce553856c, type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7780263102677741313, guid: d0330b600b7844f4fa121b7ce553856c, type: 3}
       propertyPath: m_Name
       value: Radio Piece
