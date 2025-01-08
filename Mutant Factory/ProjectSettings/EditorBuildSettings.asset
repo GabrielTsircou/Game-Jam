@@ -32,4 +32,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/DELSIN/Scenes/SpawnTrue.unity
     guid: 0bb71686c6b1ec6488b66dd71b508511
+  - enabled: 1
+    path: Assets/GABRIEL/Scenes/HAHAHHHAHA.unity
+    guid: 1a3737db70640014c9e0d042ea2aa5f0
+  - enabled: 1
+    path: Assets/GABRIEL/Scenes/Skyway Stadium hahahaha funny the finals reference
+      LAUGH.unity
+    guid: 087e94a9270450e4aa41bf0662102160
   m_configObjects: {}

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c89f21a1f0e5feb48a868f169221c66c
+guid: c1a5cf64fa82d72418c619110d9e0b01
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -129,18 +129,106 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Main Character Idle Animation sprite 1_0
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1925
+        width: 300
+        height: 947
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8994dc0e239eeff458b9bb17e7dd34aa
+      internalID: -1273988059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Idle Animation sprite 1_1
+      rect:
+        serializedVersion: 2
+        x: 2245
+        y: 1897
+        width: 312
+        height: 955
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e92eafaf9c644b40b98d1d7779238b7
+      internalID: 857535557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Idle Animation sprite 1_2
+      rect:
+        serializedVersion: 2
+        x: 3867
+        y: 1878
+        width: 302
+        height: 957
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef785692bf4117438a1c333c0743179
+      internalID: 652083028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Character Idle Animation sprite 1_3
+      rect:
+        serializedVersion: 2
+        x: 5704
+        y: 1871
+        width: 309
+        height: 955
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd84654fa5bec0499daf874c4fab9e3
+      internalID: 2130766286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c5420b7c8be27c14aa327dc9b0b0036e
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Main Character Idle Animation sprite 1_2: 652083028
+      Main Character Idle Animation sprite 1_3: 2130766286
+      Main Character Idle Animation sprite 1_0: -1273988059
+      Main Character Idle Animation sprite 1_1: 857535557
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
