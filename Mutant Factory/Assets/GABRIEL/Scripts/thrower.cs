@@ -2,21 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class demoman : MonoBehaviour
+public class thrower : MonoBehaviour
 {
     public Transform playerTransform;
     public float moveSpeed = 10;
     public bool hasNoMass = true;
     public float damage = 2;
-    public bool canAttack = true;
+    public bool contactDamage = true;
     public float throwDistance = 10;
     public bool canThrow = true;
+    public bool isBomb;
+    public bool isBasic;
+    public bool isHoming;
     private Vector2 throwStop;
     public float attackCooldown = 50;
     private float cooldown;
 
 
     public GameObject bomb;
+    public GameObject basic;
+    public GameObject homing;
 
     // Update is called once per frame
     void Update()
@@ -26,9 +31,20 @@ public class demoman : MonoBehaviour
         transform.position = calcTarget;
 
 
-        if (Vector2.Distance(transform.position, playerTransform.position) <= throwDistance && cooldown <= 0) 
+        if (Vector2.Distance(transform.position, playerTransform.position) <= throwDistance && cooldown <= 0)
         {
-            Instantiate(bomb, transform.position, Quaternion.identity);
+            if (isBomb == true)
+            {
+                Instantiate(bomb, transform.position, Quaternion.identity);
+            }
+            else if (isBasic == true)
+            {
+                Instantiate(basic, transform.position, Quaternion.identity);
+            }
+            else if (isHoming == true)
+            {
+                Instantiate(homing, transform.position, Quaternion.identity);
+            }
             cooldown = attackCooldown;
         }
         if (cooldown > 0)
@@ -44,7 +60,7 @@ public class demoman : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (canAttack == true)
+        if (contactDamage == true)
         {
             if (collision.gameObject.TryGetComponent(out mchealth mc))
             {

@@ -8,7 +8,7 @@ public class lilguy : MonoBehaviour
     public float moveSpeed = 10;
     public bool hasNoMass = true;
     public float damage = 2;
-    public bool canDamage = true;
+    public bool canAttack = true;
     // Update is called once per frame
     void Update()
     {
@@ -18,7 +18,7 @@ public class lilguy : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (canDamage == true)
+        if (canAttack == true)
         {
             if (collision.gameObject.TryGetComponent(out mchealth mc))
             {
