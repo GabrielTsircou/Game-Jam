@@ -30,12 +30,12 @@ public class thrower : MonoBehaviour
         Vector3 calcTarget = Vector3.Lerp(transform.position, target, (moveSpeed + Time.deltaTime) / 1000);
         transform.position = calcTarget;
 
-
         if (Vector2.Distance(transform.position, playerTransform.position) <= throwDistance && cooldown <= 0)
         {
             if (isBomb == true)
             {
-                Instantiate(bomb, transform.position, Quaternion.identity);
+                GameObject newbomb = Instantiate(bomb, transform.position, Quaternion.identity);
+                newbomb.GetComponent<Rigidbody2D>().velocity = new Vector2 (x: 5, y: 5);
             }
             else if (isBasic == true)
             {
@@ -51,6 +51,8 @@ public class thrower : MonoBehaviour
         {
             cooldown -= Time.deltaTime;
         }
+
+        //playerTransform.GetComponent<CircleCollider2D>
     }
 
     private void OnDrawGizmos()
