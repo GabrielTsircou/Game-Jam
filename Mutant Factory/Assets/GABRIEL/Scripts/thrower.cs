@@ -35,6 +35,7 @@ public class thrower : MonoBehaviour
             if (isBomb == true)
             {
                 GameObject newbomb = Instantiate(bomb, transform.position, Quaternion.identity);
+                newbomb.GetComponent<bomb>().thrower = this;
                 newbomb.GetComponent<Rigidbody2D>().velocity = new Vector2 (x: 5, y: 5);
             }
             else if (isBasic == true)

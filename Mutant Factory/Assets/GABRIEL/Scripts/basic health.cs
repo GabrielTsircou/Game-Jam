@@ -31,6 +31,7 @@ public class basichealth : MonoBehaviour
     {
         animator.SetBool("got geeked", gotGeeked);
 
+
         //if (canHeal == true)
         //{
         //    WaitForSeconds(healWaitTime);
