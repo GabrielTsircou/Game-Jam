@@ -803,7 +803,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 734270205}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.5, y: 1.07, z: -2.5}
+  m_LocalPosition: {x: 11.1, y: 1.48, z: -2.5}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1571,6 +1571,7 @@ GameObject:
   - component: {fileID: 1100140437}
   - component: {fileID: 1100140441}
   - component: {fileID: 1100140442}
+  - component: {fileID: 1100140443}
   m_Layer: 11
   m_Name: demoman
   m_TagString: Untagged
@@ -1600,6 +1601,8 @@ MonoBehaviour:
   isBomb: 1
   isBasic: 0
   isHoming: 0
+  throwAni: 0
+  aniTime: 0
   attackCooldown: 3
   bomb: {fileID: 2387957902780886037, guid: b850dbc91dbe7c4489a188d37a4581f0, type: 3}
   basic: {fileID: 0}
@@ -1734,6 +1737,26 @@ CircleCollider2D:
   m_Offset: {x: -0.8735162, y: -2.3588145}
   serializedVersion: 2
   m_Radius: 33.800003
+--- !u!95 &1100140443
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1100140436}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fba3ff5fa54e5c64ebdb7c82a5ad8dd9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1111966866
 GameObject:
   m_ObjectHideFlags: 0
@@ -1966,7 +1989,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1300457271}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.5000019, y: 1.2700008, z: -12.5}
+  m_LocalPosition: {x: 11.099998, y: 1.6800008, z: -12.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2822,11 +2845,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2211739524786594874, guid: fb9c5f982052b974f94573ef1f707753, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.5000019
+      value: 11.099998
       objectReference: {fileID: 0}
     - target: {fileID: 2211739524786594874, guid: fb9c5f982052b974f94573ef1f707753, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.2700008
+      value: 1.6800008
       objectReference: {fileID: 0}
     - target: {fileID: 2211739524786594874, guid: fb9c5f982052b974f94573ef1f707753, type: 3}
       propertyPath: m_LocalPosition.z
