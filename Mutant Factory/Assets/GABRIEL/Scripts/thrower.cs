@@ -14,6 +14,8 @@ public class thrower : MonoBehaviour
     public bool isBomb;
     public bool isBasic;
     public bool isHoming;
+    public bool throwAni = false;
+    public float aniTime;
     private Vector2 throwStop;
     public float attackCooldown = 50;
     private float cooldown;
@@ -32,20 +34,7 @@ public class thrower : MonoBehaviour
 
         if (Vector2.Distance(transform.position, playerTransform.position) <= throwDistance && cooldown <= 0)
         {
-            if (isBomb == true)
-            {
-                GameObject newbomb = Instantiate(bomb, transform.position, Quaternion.identity);
-                newbomb.GetComponent<bomb>().thrower = this;
-                newbomb.GetComponent<Rigidbody2D>().velocity = new Vector2 (x: 5, y: 5);
-            }
-            else if (isBasic == true)
-            {
-                Instantiate(basic, transform.position, Quaternion.identity);
-            }
-            else if (isHoming == true)
-            {
-                Instantiate(homing, transform.position, Quaternion.identity);
-            }
+            
             cooldown = attackCooldown;
         }
         if (cooldown > 0)
@@ -69,6 +58,32 @@ public class thrower : MonoBehaviour
             {
                 mc.mcHealth -= damage;
             }
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        moveSpeed = 0;
+        throwAni = true;
+
+        StartCoroutine(throwerAni());
+    }
+    private IEnumerator throwerAni()
+    {
+        yield return new WaitForSeconds(aniTime);
+        if (isBomb == true)
+        {
+            GameObject newbomb = Instantiate(bomb, transform.position, Quaternion.identity);
+            newbomb.GetComponent<bomb>().thrower = this;
+            newbomb.GetComponent<Rigidbody2D>().velocity = new Vector2(x: 5, y: 5);
+        }
+        else if (isBasic == true)
+        {
+            Instantiate(basic, transform.position, Quaternion.identity);
+        }
+        else if (isHoming == true)
+        {
+            Instantiate(homing, transform.position, Quaternion.identity);
         }
     }
 }
