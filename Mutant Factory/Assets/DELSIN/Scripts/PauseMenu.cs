@@ -23,6 +23,7 @@ public class PauseMenu : MonoBehaviour
     public void Quit()
     {
         Debug.Log("Quitties");
+        SceneManager.LoadScene("Spawn");
     }
     public void Credits()
     {
