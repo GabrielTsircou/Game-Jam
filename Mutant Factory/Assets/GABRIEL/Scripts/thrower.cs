@@ -5,7 +5,8 @@ using UnityEngine;
 public class thrower : MonoBehaviour
 {
     public Transform playerTransform;
-    public float moveSpeed = 10;
+    public float maxSpeed = 10;
+    public float moveSpeed;
     public bool hasNoMass = true;
     public float damage = 2;
     public bool contactDamage = true;
@@ -85,5 +86,7 @@ public class thrower : MonoBehaviour
         {
             Instantiate(homing, transform.position, Quaternion.identity);
         }
+        yield return new WaitForSeconds(aniTime);
+        moveSpeed = maxSpeed;
     }
 }

@@ -6,7 +6,7 @@ using Unity.VisualScripting;
 
 public class basichealth : MonoBehaviour
 {
-    private float health = 10;
+    public float health = 10;
     private float bleedRate = 0;
     private bool isBleeding = false;
     private bool gotGeeked = false;
