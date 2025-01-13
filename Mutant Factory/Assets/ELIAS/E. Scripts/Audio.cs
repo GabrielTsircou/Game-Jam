@@ -4,6 +4,7 @@ public class Audio: MonoBehaviour
 {
     [Header("Audio Clip")]
     [SerializeField] AudioSource musicSource;
+    [SerializeField] AudioSource SFXSource; 
 
     [Header("Audio Clip")]
     public AudioClip Ambient; 
@@ -13,6 +14,7 @@ public class Audio: MonoBehaviour
     public AudioClip PickUp;
     public AudioClip Hurt;
     public AudioClip Tierd;
+ 
 
     private void Start()
     {
@@ -20,5 +22,9 @@ public class Audio: MonoBehaviour
         musicSource.Play();
     }
 
+    public void PlaySFX(AudioClip clip)
+    {
+        SFXSource.PlayOneShot(clip);
+    }
 
 }
