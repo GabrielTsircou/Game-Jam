@@ -1,9 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
-public class SmoothCamera : MonoBehaviour
+public class SmoothCameraCOPY : MonoBehaviour
 {
     public Transform playerTransform;
     public Vector3 offset;
