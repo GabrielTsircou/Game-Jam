@@ -9,11 +9,12 @@ public class basichealth : MonoBehaviour
     public float health = 10;
     private float bleedRate = 0;
     private bool isBleeding = false;
-    private bool gotGeeked = false;
+    public bool getGeeked = false;
     //public static float damageQueue;
+    public float aniTime = 1;
     public float maxHealth = 10;
-    public float healRate = 0.5f;
-    public float healWaitTime = 3;
+    //public float healRate = 0.5f;
+    //public float healWaitTime = 3;
     //public bool canHeal = false;
 
     private Rigidbody2D _rb2d;
@@ -29,7 +30,7 @@ public class basichealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        animator.SetBool("got geeked", gotGeeked);
+        animator.SetBool("got geeked", getGeeked);
 
 
         //if (canHeal == true)
@@ -38,10 +39,17 @@ public class basichealth : MonoBehaviour
         //    health += healRate * Time.deltaTime;
         //}
 
-        if (health <= 0)
+        if (health < 0)
         {
-           gotGeeked = true;
+            StartCoroutine(Diedlmao());
         }
+    }
+
+    private IEnumerator Diedlmao()
+    {
+        getGeeked = true;
+        yield return new WaitForSeconds(aniTime);
+        Destroy(gameObject);
     }
 }
 

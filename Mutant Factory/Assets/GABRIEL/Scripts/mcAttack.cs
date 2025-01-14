@@ -18,11 +18,12 @@ public class mcAttack : MonoBehaviour
     {
         
     }
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.TryGetComponent(out basichealth enemy))
         {
-            enemy.health =  enemy.health - 5;
+            enemy.health =  enemy.health - mcAttackCheck.damage;
+            Debug.Log("smthn idk");
         }
     }
 }

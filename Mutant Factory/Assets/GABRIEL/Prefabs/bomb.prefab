@@ -113,7 +113,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 4249babf7831784488a81d60ef711945, type: 3}
+  m_Sprite: {fileID: 482547655, guid: cd9b6ab643dbefa42ac95605fdcfe8ec, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -137,4 +137,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thrower: {fileID: 0}
+  explosion: {fileID: 3308530943362396644, guid: 329d4c06c9d984a4d82326151caa2e6d, type: 3}
   blastRadius: 2.5

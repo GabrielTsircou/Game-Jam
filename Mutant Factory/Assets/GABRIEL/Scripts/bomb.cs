@@ -5,6 +5,7 @@ using UnityEngine;
 public class bomb : MonoBehaviour
 {
     public thrower thrower;
+    public GameObject explosion;
     public float blastRadius = 2.5f;
     // Start is called before the first frame update
     void Start()
@@ -29,6 +30,7 @@ public class bomb : MonoBehaviour
         {
             mc.mcHealth -= thrower.damage;
         }
+        Instantiate (explosion, transform.position, Quaternion.Euler(90,0,0));
         Destroy(gameObject);
     }
 }

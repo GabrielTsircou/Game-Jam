@@ -21,6 +21,8 @@ public class thrower : MonoBehaviour
     public float attackCooldown = 50;
     private float cooldown;
 
+    public Animator animator;
+    
 
     public GameObject bomb;
     public GameObject basic;
@@ -29,6 +31,8 @@ public class thrower : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        animator.SetBool("throw ani", throwAni);
+
         Vector3 target = playerTransform.position;
         Vector3 calcTarget = Vector3.Lerp(transform.position, target, (moveSpeed + Time.deltaTime) / 1000);
         transform.position = calcTarget;
@@ -64,13 +68,12 @@ public class thrower : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        moveSpeed = 0;
-        throwAni = true;
-
         StartCoroutine(throwerAni());
     }
     private IEnumerator throwerAni()
     {
+        moveSpeed = 0;
+        throwAni = true;
         yield return new WaitForSeconds(aniTime);
         if (isBomb == true)
         {
@@ -88,5 +91,6 @@ public class thrower : MonoBehaviour
         }
         yield return new WaitForSeconds(aniTime);
         moveSpeed = maxSpeed;
+        throwAni = false;
     }
 }
