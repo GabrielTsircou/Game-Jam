@@ -21,13 +21,4 @@ public class Audio: MonoBehaviour
         musicSource.clip = Ambient;
         musicSource.Play();
     }
-
-
-    private void PlaySFX(AudioClip clip)
-    {
-        SFXSource.clip = Walking; 
-        SFXSource.Play();
-    }
-
-
 }
