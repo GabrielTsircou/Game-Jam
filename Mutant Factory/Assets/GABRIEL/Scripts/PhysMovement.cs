@@ -38,10 +38,10 @@ public class PhysMovement : MonoBehaviour
     void Update()  // Update is called once per frame
     {
         animator.SetBool("walk", walk);
-        animator.SetBool("walk forward", dWalk);
-        animator.SetBool("walk up", uWalk);
-        animator.SetBool("walk left", lWalk);
-        animator.SetBool("walk right", rWalk);
+        //animator.SetBool("walk forward", dWalk);
+        //animator.SetBool("walk up", uWalk);
+        //animator.SetBool("walk left", lWalk);
+        //animator.SetBool("walk right", rWalk);
         
         if (hasNoMass == true) // sets the velocity to zero every frame if true
         {

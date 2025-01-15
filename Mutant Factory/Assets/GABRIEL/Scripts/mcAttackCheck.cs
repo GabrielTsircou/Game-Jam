@@ -7,6 +7,8 @@ public class mcAttackCheck : MonoBehaviour
     public float aniTime;
     public bool attackAni;
     public float damage = 5;
+    public Vector3 offset;
+    public GameObject attackPar;
     public GameObject left;
     public GameObject right;
     
@@ -22,22 +24,30 @@ public class mcAttackCheck : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        animator.SetBool("attack", attackAni);
+        
         if (Input.GetMouseButtonDown(0))
         {
+            animator.SetTrigger("attack");
             Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Vector3 difference = mousePos - transform.position;
             if (difference.x <= 0)
             {
                 StartCoroutine(attack(left));
+                Instantiate(attackPar, transform.position + offset, Quaternion.Euler(0, 270, 0));
             }
             else
             {
                 StartCoroutine(attack(right));
+                Instantiate(attackPar, transform.position + offset, Quaternion.Euler(0, 90, 0));
             }
         }
     }
-   
+
+    //private void OnDrawGizmos()
+    //{
+    //    Gizmos.DrawIcon(offset, "offset");
+    //}
+
     private IEnumerator attack(GameObject hitbox)
     {
         hitbox.SetActive(true);
