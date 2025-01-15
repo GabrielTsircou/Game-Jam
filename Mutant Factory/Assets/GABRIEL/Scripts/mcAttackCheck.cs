@@ -33,6 +33,7 @@ public class mcAttackCheck : MonoBehaviour
             Vector3 difference = mousePos - transform.position;
             if (difference.x <= 0)
             {
+                SpriteRenderer.flipX = true;
                 StartCoroutine(attack(left));
                 Instantiate(attackPar, transform.position + offset, Quaternion.Euler(0, 270, 0));
             }
