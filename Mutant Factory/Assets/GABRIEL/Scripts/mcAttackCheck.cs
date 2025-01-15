@@ -8,6 +8,7 @@ public class mcAttackCheck : MonoBehaviour
     public bool attackAni;
     public float damage = 5;
     public Vector3 offset;
+    public Vector3 offsetInv;
     public GameObject attackPar;
     public GameObject left;
     public GameObject right;
@@ -18,7 +19,7 @@ public class mcAttackCheck : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -37,8 +38,9 @@ public class mcAttackCheck : MonoBehaviour
             }
             else
             {
+                SpriteRenderer.flipX = false;
                 StartCoroutine(attack(right));
-                Instantiate(attackPar, transform.position + offset, Quaternion.Euler(0, 90, 0));
+                Instantiate(attackPar, transform.position + offsetInv, Quaternion.Euler(0, 90, 0));
             }
         }
     }
