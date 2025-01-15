@@ -5,10 +5,14 @@ using UnityEngine;
 public class mcAttackCheck : MonoBehaviour
 {
     public float aniTime;
+    public bool attackAni;
     public float damage = 5;
     public GameObject left;
     public GameObject right;
     
+    public Animator animator;
+    public SpriteRenderer SpriteRenderer;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +22,7 @@ public class mcAttackCheck : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        animator.SetBool("attack", attackAni);
         if (Input.GetMouseButtonDown(0))
         {
             Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);

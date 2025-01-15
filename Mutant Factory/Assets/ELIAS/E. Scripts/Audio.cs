@@ -14,7 +14,7 @@ public class Audio: MonoBehaviour
     public AudioClip PickUp;
     public AudioClip Hurt;
     public AudioClip Tierd;
- 
+    public AudioClip Walking; 
 
     private void Start()
     {
@@ -22,9 +22,12 @@ public class Audio: MonoBehaviour
         musicSource.Play();
     }
 
-    public void PlaySFX(AudioClip clip)
+
+    private void PlaySFX(AudioClip clip)
     {
-        SFXSource.PlayOneShot(clip);
+        SFXSource.clip = Walking; 
+        SFXSource.Play();
     }
+
 
 }
