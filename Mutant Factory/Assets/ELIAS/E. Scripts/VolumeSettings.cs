@@ -10,6 +10,7 @@ public class VolumeSettings : MonoBehaviour
     [SerializeField] private AudioMixer myMixer;
     [SerializeField] private Slider musicSlider;
     [SerializeField] private Slider SFXSlider;
+    [SerializeField] private Slider ThunderSlider; 
 
     private void Start()
     {
@@ -21,6 +22,7 @@ public class VolumeSettings : MonoBehaviour
         {
             SetMusicVolume();
             SetSFXVolume();
+            SetThunderVolume(); 
         }
         
     }
@@ -39,6 +41,13 @@ public class VolumeSettings : MonoBehaviour
         PlayerPrefs.SetFloat("SFXVolume", volume);
     }
 
+    public void SetThunderVolume()
+    {
+        float volume = SFXSlider.value;
+        myMixer.SetFloat("Thunder", Mathf.Log10(volume) * 20);
+        PlayerPrefs.SetFloat("ThunderVolume", volume);
+    }
+
     private void LoadVolume()
     {
         musicSlider.value = PlayerPrefs.GetFloat("musicVolume");
@@ -46,6 +55,7 @@ public class VolumeSettings : MonoBehaviour
 
         SetMusicVolume();
         SetSFXVolume();
+        SetThunderVolume();
     }
 }
 

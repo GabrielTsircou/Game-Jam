@@ -4,7 +4,8 @@ public class Audio: MonoBehaviour
 {
     [Header("Audio Clip")]
     [SerializeField] AudioSource musicSource;
-    [SerializeField] AudioSource SFXSource; 
+    [SerializeField] AudioSource SFXSource;
+    [SerializeField] AudioSource ThunderSource; 
 
     [Header("Audio Clip")]
     public AudioClip Ambient; 
@@ -15,6 +16,7 @@ public class Audio: MonoBehaviour
     public AudioClip Hurt;
     public AudioClip Tierd;
     public AudioClip Walking; 
+    public AudioClip Thunder;
 
     private void Start()
     {
