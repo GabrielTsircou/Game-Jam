@@ -7,6 +7,7 @@ public class thrower : MonoBehaviour
     public Transform playerTransform;
     public float maxSpeed = 10;
     public float moveSpeed;
+    public bool isWalk;
     public bool hasNoMass = true;
     public float damage = 2;
     public bool contactDamage = true;
@@ -18,7 +19,7 @@ public class thrower : MonoBehaviour
     public bool throwAni = false;
     public float aniTime;
     private Vector2 throwStop;
-    public float attackCooldown = 50;
+    public float attackCooldown = 3;
     private float cooldown;
 
     public Animator animator;
@@ -32,6 +33,7 @@ public class thrower : MonoBehaviour
     void Update()
     {
         animator.SetBool("throw ani", throwAni);
+        animator.SetBool("walk", isWalk);
 
         Vector3 target = playerTransform.position;
         Vector3 calcTarget = Vector3.Lerp(transform.position, target, (moveSpeed + Time.deltaTime) / 1000);
@@ -73,6 +75,7 @@ public class thrower : MonoBehaviour
     private IEnumerator throwerAni()
     {
         moveSpeed = 0;
+        isWalk = false;
         throwAni = true;
         yield return new WaitForSeconds(aniTime);
         if (isBomb == true)
@@ -89,8 +92,11 @@ public class thrower : MonoBehaviour
         {
             Instantiate(homing, transform.position, Quaternion.identity);
         }
+
         yield return new WaitForSeconds(aniTime);
         moveSpeed = maxSpeed;
         throwAni = false;
+        isWalk = true;
+        yield return new WaitForSeconds(attackCooldown);
     }
 }
