@@ -5,7 +5,8 @@ public class Audio: MonoBehaviour
     [Header("Audio Clip")]
     [SerializeField] AudioSource musicSource;
     [SerializeField] AudioSource SFXSource;
-    [SerializeField] AudioSource ThunderSource; 
+    [SerializeField] AudioSource ThunderSource;
+    [SerializeField] AudioSource MasterSource; 
 
     [Header("Audio Clip")]
     public AudioClip Ambient; 
