@@ -1,0 +1,422 @@
+fileFormatVersion: 2
+guid: 3fbcb9eb1dec82f4195eca157426a2dc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NPC idle sprite sheet hammer toss_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 538
+        height: 1676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47f70f115cf4ff4ab62e1c3fcb9e8aa
+      internalID: 1054273311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC idle sprite sheet hammer toss_1
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 8
+        width: 653
+        height: 1676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15cd05979c66cca43a047d8d83c6a336
+      internalID: -1761244413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC idle sprite sheet hammer toss_2
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 8
+        width: 547
+        height: 1676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796aa743f5425b1499c2662d3b9ad018
+      internalID: 1115378026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC idle sprite sheet hammer toss_3
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 4
+        width: 538
+        height: 1676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964b910d2a3c3164ebe68b301113f6af
+      internalID: -1797927904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC idle sprite sheet hammer toss_4
+      rect:
+        serializedVersion: 2
+        x: 2835
+        y: 12
+        width: 605
+        height: 1681
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7c97224f650f244b3a2438a56f4055
+      internalID: 408232716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC idle sprite sheet hammer toss_5
+      rect:
+        serializedVersion: 2
+        x: 3583
+        y: 21
+        width: 539
+        height: 1676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97cd728fe0f78ba42820a82b1292872c
+      internalID: 1085102696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC idle sprite sheet hammer toss_6
+      rect:
+        serializedVersion: 2
+        x: 4298
+        y: 21
+        width: 518
+        height: 1684
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be36fe2e6b3d5b246b4320f3fc27c164
+      internalID: 1567896024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC idle sprite sheet hammer toss_8
+      rect:
+        serializedVersion: 2
+        x: 4976
+        y: 12
+        width: 522
+        height: 1689
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f42fb509397bea47a130a6279d0cec2
+      internalID: -2087826464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC idle sprite sheet hammer toss_10
+      rect:
+        serializedVersion: 2
+        x: 5626
+        y: 21
+        width: 518
+        height: 1676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406f6ae9cfa4a144e8e0f09378a451c9
+      internalID: -78417431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC idle sprite sheet hammer toss_12
+      rect:
+        serializedVersion: 2
+        x: 6296
+        y: 8
+        width: 517
+        height: 1681
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bfc8fecdef3a04599246c837545d33
+      internalID: -867603092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC idle sprite sheet hammer toss_13
+      rect:
+        serializedVersion: 2
+        x: 6982
+        y: 8
+        width: 518
+        height: 1681
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee96a6837c7c9e64a85001ee3c3bbc8c
+      internalID: -469459480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC idle sprite sheet hammer toss_14
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 16
+        width: 518
+        height: 1681
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b057046e39c631b4ea206d8f42165fa2
+      internalID: 1467172478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 525fa80fe2784b34b8e25e1f3edaaa54
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      NPC idle sprite sheet hammer toss_21: -855881408
+      NPC idle sprite sheet hammer toss_19: -1537241204
+      NPC idle sprite sheet hammer toss_7: -1466202922
+      NPC idle sprite sheet hammer toss_9: -2014948407
+      NPC idle sprite sheet hammer toss_1: -1761244413
+      NPC idle sprite sheet hammer toss_8: -2087826464
+      NPC idle sprite sheet hammer toss_20: 582875124
+      NPC idle sprite sheet hammer toss_12: -867603092
+      NPC idle sprite sheet hammer toss_2: 1115378026
+      NPC idle sprite sheet hammer toss_5: 1085102696
+      NPC idle sprite sheet hammer toss_3: -1797927904
+      NPC idle sprite sheet hammer toss_4: 408232716
+      NPC idle sprite sheet hammer toss_16: -238576270
+      NPC idle sprite sheet hammer toss_13: -469459480
+      NPC idle sprite sheet hammer toss_15: -996709916
+      NPC idle sprite sheet hammer toss_10: -78417431
+      NPC idle sprite sheet hammer toss_6: 1567896024
+      NPC idle sprite sheet hammer toss_14: 1467172478
+      NPC idle sprite sheet hammer toss_11: -591803689
+      NPC idle sprite sheet hammer toss_0: 1054273311
+      NPC idle sprite sheet hammer toss_17: 584149475
+      NPC idle sprite sheet hammer toss_18: -63611079
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
