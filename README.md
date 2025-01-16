@@ -1,3 +1,3 @@
-# untitled game jam thing
+# GHOST HUNT
 
 a train wreck made by a skateboarding cow
