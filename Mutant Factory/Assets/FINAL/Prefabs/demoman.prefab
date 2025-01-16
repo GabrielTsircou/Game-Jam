@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5227069398559123700}
   - component: {fileID: 5227069398559123701}
   - component: {fileID: 5227069398559123711}
+  - component: {fileID: 7447362589269103891}
   - component: {fileID: 5227069398559123702}
   - component: {fileID: 5227069398559123706}
   - component: {fileID: 5227069398559123705}
@@ -36,7 +37,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5227069398559123700
 SpriteRenderer:
@@ -107,7 +108,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 20.349998, y: 37.115074}
+    oldSize: {x: 14.034483, y: 25.596603}
     newSize: {x: 20.349998, y: 37.115074}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -132,8 +133,22 @@ MonoBehaviour:
   getGeeked: 0
   aniTime: 1
   maxHealth: 10
+  drops: []
   animator: {fileID: 5227069398559123704}
   spriteRenderer: {fileID: 5227069398559123700}
+--- !u!114 &7447362589269103891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5227069398559123703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9949eae1eee938c41a4993c1bbf6bd24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  comment: you have to manually set the player transform sry
 --- !u!114 &5227069398559123702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,6 +177,7 @@ MonoBehaviour:
   aniTime: 0.5
   attackCooldown: 3
   animator: {fileID: 5227069398559123704}
+  CircleCollider2D: {fileID: 5227069398559123705}
   bomb: {fileID: 2387957902780886037, guid: b850dbc91dbe7c4489a188d37a4581f0, type: 3}
   basic: {fileID: 0}
   homing: {fileID: 0}

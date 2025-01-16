@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class mcAttackCheck : MonoBehaviour
 {
+    public float waitTime;
     public float aniTime;
     public bool attackAni;
     public float damage = 5;
@@ -53,6 +54,7 @@ public class mcAttackCheck : MonoBehaviour
 
     private IEnumerator attack(GameObject hitbox)
     {
+        yield return new WaitForSeconds(waitTime);
         hitbox.SetActive(true);
         yield return new WaitForSeconds(aniTime);
         hitbox.SetActive(false);

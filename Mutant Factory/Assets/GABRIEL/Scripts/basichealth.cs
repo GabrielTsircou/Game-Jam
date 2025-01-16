@@ -17,6 +17,8 @@ public class basichealth : MonoBehaviour
     //public float healWaitTime = 3;
     //public bool canHeal = false;
 
+    public GameObject[] drops;
+
     private Rigidbody2D _rb2d;
     public Animator animator;
     public SpriteRenderer spriteRenderer;
@@ -43,6 +45,11 @@ public class basichealth : MonoBehaviour
         {
             StartCoroutine(Diedlmao());
         }
+    }
+
+    private void OnDestroy()
+    {
+        Instantiate(drops[Random.Range(0,drops.Length)], transform.position, Quaternion.identity);
     }
 
     private IEnumerator Diedlmao()

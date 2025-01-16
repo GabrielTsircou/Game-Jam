@@ -20,6 +20,8 @@ public class mchealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //i have absolutely no idea why but it straight up breaks when there isn't a healthbar assigned
+        //so just move it out 
         healthbar.fillAmount = mcHealth / maxHealth;
 
         if (mcHealth <= 0)
