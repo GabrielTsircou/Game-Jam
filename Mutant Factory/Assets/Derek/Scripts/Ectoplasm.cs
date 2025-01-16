@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class RadioPiece : Item
+public class Ectoplasm : Item
 {
     public override void OnEquip(GameObject player)
     {
