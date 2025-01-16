@@ -18,12 +18,16 @@ public class mcAttack : MonoBehaviour
     {
         
     }
+
+    //THIS TRIGGERS THE THROW THROUGH THE COLLIDER2D AAAAAAAAAAAAAAAAAAAAAAAAAAA
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.TryGetComponent(out basichealth enemy))
         {
             enemy.health =  enemy.health - mcAttackCheck.damage;
             Debug.Log("smthn idk");
+
+            collision.gameObject.GetComponent<Animator>().SetTrigger("hurt");
         }
     }
 }

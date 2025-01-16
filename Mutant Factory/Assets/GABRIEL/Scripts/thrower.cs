@@ -7,7 +7,7 @@ public class thrower : MonoBehaviour
     public Transform playerTransform;
     public float maxSpeed = 10;
     public float moveSpeed;
-    public bool isWalk;
+    public bool isWalk = true;
     public bool hasNoMass = true;
     public float damage = 2;
     public bool contactDamage = true;
@@ -23,6 +23,7 @@ public class thrower : MonoBehaviour
     private float cooldown;
 
     public Animator animator;
+    public CircleCollider2D CircleCollider2D;
     
 
     public GameObject bomb;
@@ -43,6 +44,8 @@ public class thrower : MonoBehaviour
         {
             //StartCoroutine(throwerAni());
         }
+
+        //CircleCollider2D.radius = throwDistance;
 
         //playerTransform.GetComponent<CircleCollider2D>
     }
@@ -65,6 +68,7 @@ public class thrower : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        StopAllCoroutines();
         StartCoroutine(throwerAni());
     }
     private IEnumerator throwerAni()

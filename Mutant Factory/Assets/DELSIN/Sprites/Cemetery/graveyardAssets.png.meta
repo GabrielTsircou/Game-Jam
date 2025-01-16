@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bf030567534ffc541a60102d15221b24
+guid: 52319c2ef33424b48b142cfdd7f28877
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,22 +34,22 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 9
-  spritePivot: {x: 0.5129218, y: 0.5471698}
-  spritePixelsToUnits: 145
-  spriteBorder: {x: 2119, y: 773, z: 2604, w: 512}
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 0
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -131,13 +131,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: demoman_0
+      name: graveyardAssets_0
       rect:
         serializedVersion: 2
-        x: 2121
-        y: 778
-        width: 2035
-        height: 3711
+        x: 127
+        y: 2700
+        width: 1112
+        height: 721
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,8 +145,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6297333d6df6497499bfb52255b832ff
-      internalID: 372962968
+      spriteID: aa3c171b129e2eb49bcebd27f636dbde
+      internalID: 13390953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: graveyardAssets_2
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 2784
+        width: 958
+        height: 560
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e96a9b54c395240a93ed36ec67cd5f
+      internalID: -274532320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: graveyardAssets_3
+      rect:
+        serializedVersion: 2
+        x: 2856
+        y: 2896
+        width: 471
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b993ee61fdcd2b14686fc64dca6a7579
+      internalID: -1277143838
       vertices: []
       indices: 
       edges: []
@@ -154,15 +196,23 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    spriteID: 54191583e65b79d458608a7942bc8b24
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      demoman_0: 372962968
+      graveyardAssets_1: -509241012
+      graveyardAssets_6: 1965166843
+      graveyardAssets_8: 1430780530
+      graveyardAssets_4: -1776417294
+      graveyardAssets_0: 13390953
+      graveyardAssets_2: -274532320
+      graveyardAssets_5: 307847406
+      graveyardAssets_7: -1091020868
+      graveyardAssets_3: -1277143838
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 

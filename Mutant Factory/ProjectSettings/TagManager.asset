@@ -19,8 +19,8 @@ TagManager:
   - Item
   - weapon
   - enemy
-  - 
-  - 
+  - CamBoundary
+  - bomb floor
   - 
   - 
   - 
