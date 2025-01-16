@@ -33,4 +33,13 @@ public class bomb : MonoBehaviour
         Instantiate (explosion, transform.position, Quaternion.Euler(90,0,0));
         Destroy(gameObject);
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.TryGetComponent(out mchealth mc))
+        {
+            mc.mcHealth -= thrower.damage;
+        }
+        Instantiate(explosion, transform.position, Quaternion.Euler(90, 0, 0));
+        Destroy(gameObject);
+    }
 }

@@ -41,12 +41,7 @@ public class thrower : MonoBehaviour
 
         if (Vector2.Distance(transform.position, playerTransform.position) <= throwDistance && cooldown <= 0)
         {
-            
-            cooldown = attackCooldown;
-        }
-        if (cooldown > 0)
-        {
-            cooldown -= Time.deltaTime;
+            StartCoroutine(throwerAni());
         }
 
         //playerTransform.GetComponent<CircleCollider2D>
@@ -68,10 +63,10 @@ public class thrower : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        StartCoroutine(throwerAni());
-    }
+//    private void OnTriggerEnter2D(Collider2D collision)
+  //  {
+    //    StartCoroutine(throwerAni());
+    //}
     private IEnumerator throwerAni()
     {
         moveSpeed = 0;
