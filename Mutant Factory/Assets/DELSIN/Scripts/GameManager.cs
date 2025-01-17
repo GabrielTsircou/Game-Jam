@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
     }
     public void settings()
     {
+        SceneManager.LoadScene("Settings");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Debug.Log("Is this working: Settings");
     }
