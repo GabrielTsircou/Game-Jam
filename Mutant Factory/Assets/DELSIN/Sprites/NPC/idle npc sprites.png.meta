@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cdbb58fc6defd8f4992a9417cab58ad5
+guid: 89033296ea755244a8e00c6e61d5ce4f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -129,18 +129,106 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: idle npc sprites_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1322
+        width: 370
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f70eda297973ef41b902ae52a5080e1
+      internalID: 188927936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle npc sprites_1
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1322
+        width: 371
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17c47a29c09094459f20f854e22dd1a
+      internalID: -104594522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle npc sprites_2
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1322
+        width: 371
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5747cacaeeec149bc1cca7f40bf83d
+      internalID: -1378828954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle npc sprites_3
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 1322
+        width: 370
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c853138d8ee9d3745ae16d88406a1e2b
+      internalID: -484430519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 7226ad3729b9691429e604a13e0063ca
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      idle npc sprites_3: -484430519
+      idle npc sprites_2: -1378828954
+      idle npc sprites_0: 188927936
+      idle npc sprites_1: -104594522
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 

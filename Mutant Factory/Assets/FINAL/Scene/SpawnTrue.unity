@@ -1716,6 +1716,10 @@ PrefabInstance:
       propertyPath: speed
       value: 7.5
       objectReference: {fileID: 0}
+    - target: {fileID: 7414325014909436039, guid: 75426dbad27160948855000d0ff2271c, type: 3}
+      propertyPath: offset.x
+      value: -0.65
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 75426dbad27160948855000d0ff2271c, type: 3}

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ed6e23084c81c0841ac69750e3d7c17a
+guid: 72304f17f5609344caef80bcee1e74cc
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -129,18 +129,84 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: houses_0
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1576
+        width: 1588
+        height: 1217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fad152f3662c04d93ae35f3142c2d4
+      internalID: 822828141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: houses_1
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 1539
+        width: 1635
+        height: 1203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec7e04ebb44eae4b8361cb70f39bbe9
+      internalID: -900573279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: houses_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 211
+        width: 1674
+        height: 1201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace03b600edec2c4db8a79e8bd5ec157
+      internalID: 1156517760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: ff01f7c2622656c4d839bc0c6398dbbb
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      houses_1: -900573279
+      houses_2: 1156517760
+      houses_0: 822828141
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 

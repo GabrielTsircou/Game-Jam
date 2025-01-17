@@ -106,11 +106,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86825fda682157643be8dc6972d3ccda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waitTime: 0
   aniTime: 0.5
   attackAni: 0
   damage: 5
   offset: {x: -0.65, y: 0, z: 0}
-  offsetInv: {x: 0.65, y: 0, z: 0}
+  offsetInv: {x: 1, y: 0, z: 0}
   attackPar: {fileID: 2873920115851863542, guid: 5a6742565139a45459adeaac402ecc2e, type: 3}
   left: {fileID: 5119575974539856359}
   right: {fileID: 5119575974217557293}
