@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 5227069398559123700}
   - component: {fileID: 5227069398559123701}
   - component: {fileID: 5227069398559123711}
-  - component: {fileID: 7447362589269103891}
   - component: {fileID: 5227069398559123702}
   - component: {fileID: 5227069398559123706}
   - component: {fileID: 5227069398559123705}
@@ -133,22 +132,10 @@ MonoBehaviour:
   getGeeked: 0
   aniTime: 1
   maxHealth: 10
-  drops: []
+  drops:
+  - {fileID: 3093274324140143926, guid: 055829493da42d44cb9dc44baf6d8399, type: 3}
   animator: {fileID: 5227069398559123704}
   spriteRenderer: {fileID: 5227069398559123700}
---- !u!114 &7447362589269103891
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5227069398559123703}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9949eae1eee938c41a4993c1bbf6bd24, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  comment: you have to manually set the player transform sry
 --- !u!114 &5227069398559123702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -161,7 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d7cdc1ea04b8fd4c9deb3e192258351, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 0}
+  playerTransform: {fileID: 5119575973825258401, guid: 75426dbad27160948855000d0ff2271c, type: 3}
   maxSpeed: 1
   moveSpeed: 1
   isWalk: 0
@@ -175,9 +162,11 @@ MonoBehaviour:
   isHoming: 0
   throwAni: 0
   aniTime: 0.5
+  throwArc: {x: 5, y: 5}
   attackCooldown: 3
   animator: {fileID: 5227069398559123704}
   CircleCollider2D: {fileID: 5227069398559123705}
+  spriteRenderer: {fileID: 5227069398559123700}
   bomb: {fileID: 2387957902780886037, guid: b850dbc91dbe7c4489a188d37a4581f0, type: 3}
   basic: {fileID: 0}
   homing: {fileID: 0}
