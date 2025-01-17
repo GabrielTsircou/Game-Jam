@@ -78,4 +78,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/FINAL/Scene/TestingScene.unity
     guid: 2e678a421ce99ee4a99cd6f517c4bc13
+  - enabled: 1
+    path: Assets/ELIAS/Scenes/Delsin Credits.unity
+    guid: 81993379c3aa4d14489755d66cbca057
+  - enabled: 1
+    path: Assets/ELIAS/Scenes/Elias Credit.unity
+    guid: 99a690bbf59284f4981b0d3516a9899c
   m_configObjects: {}
