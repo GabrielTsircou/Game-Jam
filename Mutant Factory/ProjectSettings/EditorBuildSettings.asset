@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: Assets/DELSIN/Scenes/ChurchOLD.unity
     guid: 35f83540ff78ee746b4c954e7a706b40
   - enabled: 1
+    path: Assets/FINAL/Scene/congrats.unity
+    guid: 65b28c99c1d55c3488ede1721dac9e84
+  - enabled: 1
     path: Assets/DELSIN/Scenes/MenuOLD.unity
     guid: 4c20d2ba364ff2f46aaeb77384d77fc0
   - enabled: 1
@@ -78,4 +81,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/FINAL/Scene/TestingScene.unity
     guid: 2e678a421ce99ee4a99cd6f517c4bc13
+  - enabled: 1
+    path: Assets/ELIAS/Scenes/Delsin Credits.unity
+    guid: 81993379c3aa4d14489755d66cbca057
+  - enabled: 1
+    path: Assets/ELIAS/Scenes/Elias Credit.unity
+    guid: 99a690bbf59284f4981b0d3516a9899c
   m_configObjects: {}

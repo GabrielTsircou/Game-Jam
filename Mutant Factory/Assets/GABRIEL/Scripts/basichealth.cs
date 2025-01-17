@@ -7,8 +7,8 @@ using Unity.VisualScripting;
 public class basichealth : MonoBehaviour
 {
     public float health = 10;
-    private float bleedRate = 0;
-    private bool isBleeding = false;
+    //private float bleedRate = 0;
+    //private bool isBleeding = false;
     public bool getGeeked = false;
     //public static float damageQueue;
     public float aniTime = 1;

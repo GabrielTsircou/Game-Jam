@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class thrower : MonoBehaviour
 {
-    public Transform playerTransform;
+    private Transform playerTransform;
     public float maxSpeed = 10;
     public float moveSpeed;
     public bool isWalk = true;
@@ -32,10 +32,15 @@ public class thrower : MonoBehaviour
     public GameObject basic;
     public GameObject homing;
 
+    private void Start()
+    {
+        playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
+    }
 
     // Update is called once per frame
     void Update()
     {
+        GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         animator.SetBool("throw ani", throwAni);
         animator.SetBool("walk", isWalk);
 
