@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Inventory : MonoBehaviour
@@ -18,6 +19,7 @@ public class Inventory : MonoBehaviour
     [SerializeField] private KeyCode _dropButton;
     [SerializeField] private float _pickupRadius;
     [SerializeField] private bool _autoSwitchSlotOnGrab;
+    [SerializeField] private int goalCount;
 
     [Header("Use Settings")]
 
@@ -30,6 +32,8 @@ public class Inventory : MonoBehaviour
     
     private Item[] _inventory;
     private Image[] _slots;
+
+    private int itemCount;
 
     private int _currentlySelected;
     public Item CurrentItem => GetItemFromSlot(_currentlySelected);
@@ -105,6 +109,10 @@ public class Inventory : MonoBehaviour
                 RemoveItemFromSlot(_currentlySelected);
             }
         }
+        if (itemCount >= goalCount)
+        {
+            SceneManager.LoadScene("congrats");
+        }
     }
 
     private void OnDrawGizmos()
@@ -136,6 +144,8 @@ public class Inventory : MonoBehaviour
 
         item.OnPickup(_player);
 
+        itemCount++;
+
         if (_autoSwitchSlotOnGrab)
             _currentlySelected = slotNumber;
     }
@@ -160,6 +170,8 @@ public class Inventory : MonoBehaviour
         _inventory[slotNumber] = null;
         _slots[slotNumber].sprite = _defaultEmptySlot;
         _slots[slotNumber].color = Color.black;
+
+        itemCount--;
 
         item.OnDrop(_player);
     }
